@@ -21,3 +21,13 @@
     float:right;
   }
 }
+
+.clearfix:after{
+  clear:both;
+  display:block;
+  content:"";
+}
+
+.only-eng{
+  font-family:neosans san-serif;
+}
