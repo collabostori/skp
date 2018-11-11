@@ -24,7 +24,7 @@
     "gulp-index": "0.0.8",
     "gulp-livereload": "^3.8.1",
     "gulp-minify": "^3.1.0",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^3.1.0",
     "gulp-sass-unicode": "^1.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-watch": "^4.3.11",
