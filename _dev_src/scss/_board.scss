@@ -13,6 +13,11 @@
 
   }
 
+  &-top{
+    text-align:right;
+    margin-bottom:14px;
+  }
+
   &-item{
 
     &-01{
@@ -74,13 +79,193 @@
         }
       }
 
+      &-heading{
+        font-size:17px;
+      }
+
+      &-date{
+        margin-top:5px;
+        color:#999;
+      }
+
       &-bottom{
+        padding:25px 15px 19px;
       }
 
     }
 
 
 
+  }
+
+  &-file-attach{
+    display:inline-block;
+    width:18px;
+    height:17px;
+    text-indent:-99999em;
+    background:url(/images/file_attach.png) no-repeat;
+  }
+
+}
+
+.board-view{
+  &-heading{
+    float:left;
+    font-size:24px;
+  }
+
+  &-date{
+    position:relative;
+    top:3px;
+    float:right;
+    font-size:16px;
+    color:#999;
+  }
+
+  &-content{
+    padding-top:30px;
+    margin-top:7px;
+    border-top:1px solid #000;
+  }
+
+  &-image{
+
+  }
+
+  &-text{
+    margin:30px auto 72px;
+    line-height:1.8;
+  }
+
+  &-others{
+
+    margin-bottom:25px;
+
+    .others-item{
+      height:45px;
+      padding:0 15px;
+      line-height:48px;
+      overflow:hidden;
+
+      &:after{
+        content:"";
+        display:block;
+        clear:both;
+      }
+
+      &:first-child{
+        border-top:1px solid #000;
+        border-bottom:1px solid #ccc;
+      }
+
+      &:last-child{
+        border-bottom:1px solid #000;
+      }
+
+      &-arrow{
+        display:block;
+        float:left;
+        margin-right:24px;
+
+        &:before{
+          content:"";
+          display:inline-block;
+          width:13px;
+          height:7px;
+          margin-right: 20px;
+          background:url(/images/spr_board_view_arrow.png) no-repeat;
+
+          position: relative;
+          top: -3px;
+        }
+
+        &-link{
+          font-size:16px;
+        }
+
+        &.next{
+          &:before{
+            background-position:0 -46px;
+          }
+        }
+
+      }
+
+      &-title{
+        display:block;
+        float:left;
+
+        &-link{
+          color:#666;
+
+          &.disabled{
+            color:#999;
+          }
+        }
+
+      }
+
+      &-date{
+        display:block;
+        float:right;
+
+        color:#999;
+      }
+
+
+
+    }
+
+  }
+}
+
+.paging{
+
+  &-wrap{
+    margin-top:50px;
+    text-align:center;
+  }
+
+  &-arrow{
+    display:inline-block;
+    height:13px;
+    background:url(/images/spr_paging_arrow.png) no-repeat;
+    text-indent:-99999em;
+  }
+
+  &-first{
+    width:15px;
+    margin-right:10px;
+  }
+
+  &-prev{
+    width:7px;
+    margin-right:15px;
+    background-position:0 0;
+  }
+
+  &-num{
+    margin-right:15px;
+
+    &:last-child{
+      margin-right:0;
+    }
+
+    &:hover, &.on{
+      color:#e51837;
+    }
+  }
+
+  &-next{
+    width:7px;
+    margin-left:15px;
+    background-position:-76px 0;
+  }
+
+  &-last{
+    width:15px;
+    margin-left:10px;
+    background-position:-68px 0;
   }
 
 }

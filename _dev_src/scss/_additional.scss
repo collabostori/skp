@@ -21,3 +21,55 @@
     float:right;
   }
 }
+
+
+
+
+
+
+
+
+
+
+.dp-val{
+  &-block{
+
+  }
+
+  &-inblock{
+    display:inline-block;
+  }
+
+  &-inline{
+    display:inline;
+  }
+}
+
+.ml10{
+  margin-left:10px;
+}
+
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+
+
+
+.font{
+
+  &-black{
+    color:#000;
+  }
+
+  &-red{
+    color:#e51837;
+  }
+
+  &-gray9{
+    color:#999;
+  }
+
+}

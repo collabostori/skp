@@ -1,0 +1,27 @@
+.table{
+  &-vt{
+    width:100%;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+
+    caption{
+      text-indent:-99999em;
+    }
+
+    th{
+      padding:15px 0 11px;
+      background:#f2f2f2;
+      vertical-align:middle;
+    }
+
+    td{
+      padding:16px 0 11px;
+      border-top:1px solid #ccc;
+      color:#999;
+
+      strong{
+        color:#000;
+      }
+    }
+  }
+}
