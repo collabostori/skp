@@ -8,6 +8,9 @@
   <meta name="keyword" content="Skplanet, SK플래닛, ICT Synergy, Marketing, Platform, Data, Infra, Business, AI, IoT, NUGU, MNO, Solutions, Cloud, Media" />
   <link rel="shortcut icon" href="/favicons/favicon.ico">
   <link rel="stylesheet" href="/css/style.css" />
+  <script src="/js/lib/jquery-3.1.1.js"></script>
+  <script src="/js/lib/jquery.selectric.js"></script>
+  <script src="/js/function.debug.js"></script>
 </head>
 <body>
 
@@ -122,15 +125,17 @@
   <div class="board-top">
 
     <div class="clearfix dp-val-inblock">
-      <select class="select-01" title="분류 선택">
-        <option>전체</option>
-        <option>전체</option>
-        <option>전체</option>
-      </select>
+      <div class="float-left">
+        <select class="select-01" title="분류 선택">
+          <option>전체</option>
+          <option>전체</option>
+          <option>전체</option>
+        </select>
+      </div>
 
-      <input type="text" class="input-01" title="검색어 입력" />
+      <input type="text" class="input-01 float-left ml10" title="검색어 입력" />
 
-      <button type="button" class="button-01">검색</button>
+      <button type="button" class="button-01 float-left">검색</button>
     </div>
 
   </div>
@@ -178,21 +183,21 @@
 
   </div>
 
-  <div class="paging-wrap-01">
-    <a href="#" class="paging-01-first">처음으로</a>
-    <a href="#" class="paging-01-prev">한단계 앞으로</a>
-    <a href="#" class="paging-01-num">1</a>
-    <a href="#" class="paging-01-num">2</a>
-    <a href="#" class="paging-01-num">3</a>
-    <a href="#" class="paging-01-num">4</a>
-    <a href="#" class="paging-01-num">5</a>
-    <a href="#" class="paging-01-num">6</a>
-    <a href="#" class="paging-01-num">7</a>
-    <a href="#" class="paging-01-num">8</a>
-    <a href="#" class="paging-01-num">9</a>
-    <a href="#" class="paging-01-num">10</a>
-    <a href="#" class="paging-01-first">한단계 뒤로</a>
-    <a href="#" class="paging-01-last">끝으로</a>
+  <div class="paging-wrap">
+    <a href="#" class="paging-arrow paging-first">처음으로</a>
+    <a href="#" class="paging-arrow paging-prev">한단계 앞으로</a>
+    <a href="#" class="paging-num on">1</a>
+    <a href="#" class="paging-num">2</a>
+    <a href="#" class="paging-num">3</a>
+    <a href="#" class="paging-num">4</a>
+    <a href="#" class="paging-num">5</a>
+    <a href="#" class="paging-num">6</a>
+    <a href="#" class="paging-num">7</a>
+    <a href="#" class="paging-num">8</a>
+    <a href="#" class="paging-num">9</a>
+    <a href="#" class="paging-num">10</a>
+    <a href="#" class="paging-arrow paging-next">한단계 뒤로</a>
+    <a href="#" class="paging-arrow paging-last">끝으로</a>
   </div>
 
 </div>
