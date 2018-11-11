@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+
+  </style>
+  <script src="js/lib/jquery-3.1.1.js"></script>
+  <script>
+    $(function(){
+
+      $.getJSON('./data/file_list_kor.json', function(data){
+
+        var items = [];
+
+        $.each(data, function(key, val){
+          items.push('<tr><td>' + key + '</td><td><a href="/html/kor/'+ val +'" target="_blank">' + val + '</a></td></tr>');
+        });
+
+        $('' + items).appendTo('tbody');
+
+      });
+
+    });
+  </script>
+</head>
+<body>
+
+<div class="cover-list">
+
+  <table class="cover-table">
+
+    <colgroup>
+      <col style="width:30%;" />
+      <col style="width:70%;" />
+    </colgroup>
+
+    <thead>
+    <th>Number</th>
+    <th>file name</th>
+    </thead>
+    <tbody class="tbody">
+
+    </tbody>
+
+  </table>
+
+</div>
+
+</body>
+</html>

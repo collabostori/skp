@@ -1,0 +1,148 @@
+.header{
+  width:100%;
+  height:61px;
+  //border-bottom:1px solid #ccc;
+  background:#fff;
+  position:absolute;
+  z-index:20;
+  overflow:hidden;
+
+  &:after{
+    content:"";
+    display:block;
+    clear:both;
+  }
+
+  //&:hover{
+  //  height:281px;
+  //}
+
+  &-logo{
+    position:absolute;
+    top:10px;
+    left:40px;
+
+    &-link{
+      display:block;
+    }
+    &-image{
+      display:block;
+      width:85px;
+    }
+  }
+
+  &-util{
+    position:absolute;
+    top:0;
+    right:0;
+
+    &-item{
+      width:90px;
+      height:60px;
+      border-left:1px solid #ccc;
+
+      float:left;
+
+      text-align:center;
+      line-height:64px;
+
+      &:first-child{
+        border-left:0;
+      }
+    }
+
+    &-link{
+      font-size:13px;
+
+      &.underline{
+        color:#999;
+        padding:0 3px 3px;
+        margin:0 5px;
+
+        &.on, &:hover{
+          color:#333;
+          border-bottom:1px solid #333;
+        }
+      }
+    }
+  }
+}
+
+.gnb{
+  width:901px;
+  padding-top:24px;
+  margin:0 auto;
+
+  &:before{
+    content:"";
+    display:block;
+    width:100%;
+    height:1px;
+    background:#ccc;
+    position:absolute;
+    top:60px;
+    left:0;
+  }
+
+  &-depth1{
+    &:after{
+      content:"";
+      display:block;
+      clear:both;
+    }
+
+    &-item{
+      width:225px;
+
+      float:left;
+
+      text-align:center;
+    }
+
+    &-link{
+      display:inline-block;
+      padding-bottom:17px;
+
+      position:relative;
+
+      font-size:16px;
+      font-weight:600;
+
+      &:hover, &.on{
+        color:#e51837;
+
+        &:after{
+          content:"";
+          display:block;
+          width:100%;
+          height:3px;
+          background:#e51837;
+          position:absolute;
+          left:0;
+          bottom:0;
+        }
+      }
+    }
+  }
+
+  &-depth2{
+    width:225px;
+    height:220px;
+    padding-top:31px;
+    border-left:1px solid #ccc;
+
+    &-item{
+      margin-bottom:20px;
+      text-align:center;
+    }
+
+    &-link{
+      font-size:16px;
+
+      &:hover, &.on{
+        color:#e51837;
+      }
+    }
+  }
+}
+
