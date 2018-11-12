@@ -1,3 +1,13 @@
+// clearfix
+
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+
+// text align
 .align{
   &-center{
     text-align:center;
@@ -12,6 +22,7 @@
   }
 }
 
+// float
 .float{
   &-left{
     float:left;
@@ -22,25 +33,7 @@
   }
 }
 
-<<<<<<< HEAD
-.clearfix:after{
-  clear:both;
-  display:block;
-  content:"";
-}
-
-.only-eng{
-  font-family:neosans san-serif;
-=======
-
-
-
-
-
-
-
-
-
+// display value
 .dp-val{
   &-block{
 
@@ -55,18 +48,19 @@
   }
 }
 
+
+// margin
 .ml10{
   margin-left:10px;
 }
 
-.clearfix:after{
-  content:"";
-  display:block;
-  clear:both;
+
+
+
+// font
+.only-eng {
+  font-family:neosans sans-serif;
 }
-
-
-
 
 .font{
 
@@ -82,5 +76,4 @@
     color:#999;
   }
 
->>>>>>> d5f3931b182f4db100f1270bb7323148b8721351
 }

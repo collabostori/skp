@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1440de91-548c-4a85-81ff-0a9278bd5fff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/scss/_component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/scss/_component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_dev_src/scss/_additional.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/scss/_additional.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/file_list_kor.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/file_list_kor.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +36,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_component.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_component.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_dev_src/scss/_component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="315">
+              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_additional.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_dev_src/scss/_additional.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -108,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_dev_src/scss/_date_picker.scss" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_form_element.scss" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_expert_search.scss" />
         <option value="$PROJECT_DIR$/_dev_src/html/mypage_03_03.html" />
@@ -135,7 +153,6 @@
         <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_006.html" />
         <option value="$PROJECT_DIR$/_dev_src/data/file_list.json" />
         <option value="$PROJECT_DIR$/_dev_src/html/src/guide/skp_style_guide.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_dev_src/ㅅㄷ.html" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_header.scss" />
         <option value="$PROJECT_DIR$/_dev_src/html/_include/_location_kp_03.html" />
@@ -149,7 +166,6 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/_dev_src/js/_component.js" />
         <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_004.html" />
-        <option value="$PROJECT_DIR$/_dev_src/scss/_additional.scss" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_table.scss" />
         <option value="$PROJECT_DIR$/_dev_src/html/_include/_footer.html" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_footer.scss" />
@@ -159,6 +175,9 @@
         <option value="$PROJECT_DIR$/_dev_src/scss/_board.scss" />
         <option value="$PROJECT_DIR$/_dev_src/scss/style.scss" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_component.scss" />
+        <option value="$PROJECT_DIR$/_dev_src/scss/_additional.scss" />
+        <option value="$PROJECT_DIR$/data/file_list_kor.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -296,13 +315,7 @@
             <path>
               <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="_dev_src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="_dev_src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -418,9 +431,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gulp.js.seperate" />
         <item itemvalue="Gulp.js.default" />
         <item itemvalue="Gulp.js.common:release" />
-        <item itemvalue="Gulp.js.seperate" />
         <item itemvalue="Gulp.js.init:release" />
         <item itemvalue="Gulp.js.release" />
       </list>
@@ -488,12 +501,12 @@
       <workItem from="1541899166010" duration="9282000" />
       <workItem from="1541924125639" duration="11429000" />
       <workItem from="1541945272460" duration="987000" />
-      <workItem from="1541977419385" duration="2751000" />
+      <workItem from="1541977419385" duration="4177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294206000" />
+    <option name="totallyTimeSpent" value="295632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,13 +521,13 @@
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" order="2" sideWeight="0.44078946" side_tool="true" visible="true" weight="0.15715292" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55921054" visible="true" weight="0.15715292" />
+      <window_info id="Gulp" order="2" sideWeight="0.44140625" side_tool="true" visible="true" weight="0.15715292" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55859375" visible="true" weight="0.15715292" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3263158" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3263158" />
       <window_info id="npm" order="4" side_tool="true" />
       <window_info id="Structure" order="1" sideWeight="0.5171053" side_tool="true" weight="0.17054264" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3276316" />
@@ -607,16 +620,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/file_list_eng.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/file_list_kor.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="94" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_dev_src/edu_board_table.html" />
     <entry file="file://$PROJECT_DIR$/_dev_src/html/_include/_mobile_tnb.html">
@@ -715,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_additional.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_dev_src/scss/_table.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -812,8 +808,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_dev_src/scss/_component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="315">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_additional.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/file_list_kor.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
