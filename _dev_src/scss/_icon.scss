@@ -1,0 +1,34 @@
+.board-file-attach{
+  display:inline-block;
+  width:18px;
+  height:17px;
+  text-indent:-99999em;
+  background:url(/images/file_attach.png) no-repeat;
+}
+
+.icon{
+
+  &-new{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding-right: 1px;
+    background: #e51837;
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
+    color: #fff;
+    font-family: neosans, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    span{
+      display:inline-block;
+      text-indent:-99999em;
+    }
+  }
+
+}

@@ -16,11 +16,8 @@
       font-size:16px;
       color:#333;
       margin-top:4px;
-<<<<<<< HEAD
       line-height:1.5;
-=======
       font-size:16px;
->>>>>>> d5f3931b182f4db100f1270bb7323148b8721351
     }
   }
   &-bg-wrap{
@@ -28,42 +25,52 @@
   }
 }
 
-
-
-
-
-
 .text-content{
   margin-bottom:100px;
+
   &:after{
-    clear:both; display:block; content:'';
+    clear:both;
+    display:block;
+    content:"";
   }
+
   &-heading{
     float:left;
     margin-top:6px;
     font-size:36px;
-    line-height:36px;
     color:#000;
+		line-height:1.2;
     span{
       display:block;
     }
+
     &-image{
       margin-top:40px;
       display:block;
     }
   }
+
   &-desc{
     &-wrap{
+			padding-top:17px;
       border-top:1px solid #666;
       float:right;
       width:842px;
+			strong{
+				display:block;
+				color:#333;
+				font-size:18px;
+				font-weight:bold;
+			}
     }
+
     &-title{
-      margin:17px 0 33px;
+      margin-bottom:33px;
       font-size:20px;
       line-height:20px;
       color:#f48024;
     }
+
     &-paragraph{
       font-size:14px;
       line-height:1.8;
@@ -74,10 +81,58 @@
       }
     }
   }
+
+  &-02{
+    margin-bottom:100px;
+    &-heading{
+      padding-bottom:5px;
+      border-bottom:1px solid #000;
+      font-size:36px;
+    }
+  }
+	&-object{
+		float:left;
+		dt{
+			margin-bottom:15px;
+			font-size:18px;
+			font-weight:bold;
+			color:#333;
+		}
+		dd{
+			float:left;
+			margin-right:31px;
+			font-size:16px;
+			color:#f48024;
+		}
+		dd:before{
+			margin-right:17px;
+			vertical-align:middle;
+			display:inline-block;
+			content:'';
+			width:61px;
+			height:61px;
+		}
+	}
+	&-student-jobseeker:before{
+		background:url("/images/student-jobseeker.png") no-repeat;
+	}
+	&-business-partner:before{
+		background:url("/images/business-partner.png") no-repeat;
+	}
+	&-ordinary-person:before{
+		background:url("/images/ordinary-person.png") no-repeat;
+	}
+	&-high-school:before{
+		background:url("/images/high-school.png") no-repeat;
+	}
+	&-elementary-school{
+		background:url("/images/elementary-school.png") no-repeat;
+	}
 }
 
 .logo-mark{
   &-wrap{
+		margin-bottom:30px;
     &:after{
       display:block;
       clear:both;
@@ -115,9 +170,9 @@
     }
   }
 }
+
 .content-link{
   float:right;
-  margin-top:30px;
   font-size:16px;
   color:#979797;
   padding:0 14px 0 15px;
@@ -125,6 +180,7 @@
   line-height:46px;
   border-radius:2px;
   border:1px solid #979797;
+
   &:after{
     display:inline-block;
     content:'';
@@ -133,6 +189,164 @@
     margin-left:51px;
     background:url('/images/ci-manual-download.png') no-repeat;
   }
+}
+.arrow{
+	margin-top:45px;
+	&:after{
+    display:inline-block;
+    content:'';
+    width:10px;
+    height:7px;
+		margin:-2px 0 2px 24px;
+    background:url('/images/right-arrow.png') no-repeat;
+  }
+}
+
+.paragraph{
+
+  &-strong{
+    font-size:20px;
+    color:#000;
+    line-height:1.8;
+  }
+
+  &-common{
+    margin-top:24px;
+
+    font-weight:300;
+    color:#666;
+    line-height:1.625;
+
+    strong{
+      font-size:16px;
+      color:#333;
+    }
+  }
+}
+
+.auto-graph{
+  display:inline-block;
+
+  &-wrap{
+    margin-top:40px;
+    text-align:right;
+  }
+
+  &:after{
+    content:"";
+    display:inline-block;
+    width:45px;
+    height:34px;
+    background:url(/images/ceo_auto_graph.png) no-repeat;
+    position: relative;
+    top: 9px;
+    margin-left: 15px;
+  }
+
+}
+
+.sub{
+
+  &-visual{
+    margin-bottom:76px;
+    position:relative;
+
+    &-image{
+      display:block;
+    }
+
+    &-slogan{
+
+      &-wrap{
+        width:470px;
+        height:380px;
+        padding:90px 0 90px 52px;
+        background:#f58026;
+        position: absolute;
+        top: -30px;
+        right: 40px;
+      }
+
+      &-narrow{
+        font-size:28px;
+        font-weight:300;
+        color:#fff;
+        line-height:1.4;
+      }
+
+      &-bold{
+        margin-top:42px;
+        font-size:28px;
+        font-weight:600;
+        color:#fff;
+        line-height:1.4;
+      }
+
+    }
+
+  }
+
+	&-history{
+		&-wrap{
+			margin-top:100px;
+			padding:80px 0 100px;
+			background-color:#f8f8f8;
+			h3{
+				float:left;
+				margin-top:5px;
+			}
+		}
+		&-list{
+			color:#333;
+			float:left;
+			border-top:1px solid #666;
+			border-bottom:1px solid #666;
+			margin-left:290px;
+			width:842px;
+			>li{
+				padding:35px 19px;
+				border-top:1px solid #ccc;
+			}
+			>li:first-child{
+				border-top:none;
+			}
+			>li:after{
+				display:block;
+				content:'';
+				clear:both;
+			}
+			&-year{
+				float:left;
+				font-weight:bold;
+				font-size:18px;
+				line-height:18px;
+			}
+			&-depth{
+				float:left;
+				margin-left:40px;
+				li{
+					margin-top:21px;
+				}
+				li:first-child{
+					margin-top:0;
+				}
+			}
+			&-month{
+				font-weight:bold;
+				font-size:16px;
+				line-height:16px;
+				display:inline-block;
+				width:35px;
+				text-align:right;
+				margin-right:20px;
+			}
+			&-text{
+				font-size:14px;
+				color:#666;
+			}
+		}
+	}
+
 }
 
 
