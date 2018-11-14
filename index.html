@@ -5,6 +5,47 @@
   <title>Title</title>
   <style>
 
+    .top-title{
+      text-align:center;
+      margin:50px 0;
+    }
+
+    .top-title div{
+      font-size:30px;
+    }
+
+    .cover-table{
+      width:1200px;
+      margin:0 auto;
+      border-top:2px solid #000;
+      border-bottom:2px solid #000;
+    }
+
+    .cover-table th{
+      padding:10px 0;
+      border-bottom:1px solid #ccc;
+    }
+
+    .cover-table td{
+      padding:10px 0;
+      border-bottom:1px solid #ccc;
+      text-align:center;
+    }
+
+    .cover-table tr:last-child td{
+      border:0;
+    }
+
+    .cover-table td a{
+      color:#333;
+      text-decoration:none;
+    }
+
+    .cover-table td a:hover{
+      color:#ff0000;
+      border-bottom:1px solid #ff0000;
+    }
+
   </style>
   <script src="js/lib/jquery-3.1.1.js"></script>
   <script>
@@ -15,7 +56,7 @@
         var items = [];
 
         $.each(data, function(key, val){
-          items.push('<tr><td>' + key + '</td><td><a href="/html/kor/'+ val +'" target="_blank">' + val + '</a></td></tr>');
+          items.push('<tr><td>' + (parseInt(key) + 1) + '</td><td><a href="/html/kor/'+ val +'" target="_blank">' + val + '</a></td></tr>');
         });
 
         $('' + items).appendTo('tbody');
@@ -28,6 +69,11 @@
 <body>
 
 <div class="cover-list">
+
+  <div class="top-title">
+    <img src="/images/skp_logo.png" />
+    <div>MARKUP LIST</div>
+  </div>
 
   <table class="cover-table">
 

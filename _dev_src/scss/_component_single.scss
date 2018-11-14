@@ -58,3 +58,112 @@
   }
 
 }
+
+.ict-diagram{
+  margin-top:80px;
+
+  &-image{
+    padding-bottom:142px;
+    background:url(/images/bg_ict_diagram.png) no-repeat center 440px;
+
+    &:after{
+      content:"";
+      display:block;
+      clear:both;
+    }
+
+  }
+
+  &-item{
+    width:33.3333%;
+
+    position:relative;
+
+    float:left;
+
+    text-align:center;
+
+    &:before{
+      content:"";
+      display:inline-block;
+      width:280px;
+      height:280px;
+      background:url(/images/spr_ict_diagram.png) no-repeat 0 0;
+    }
+
+    &:nth-child(1){
+      color:#f58026;
+
+      .ict-diagram-item-title:after{
+        background:#f58026;
+      }
+
+      &:before{
+        background-position:0 0;
+      }
+
+    }
+
+    &:nth-child(2){
+      color:#e51837;
+      .ict-diagram-item-title:after{
+        background:#e51837;
+      }
+
+      &:before{
+        background-position:-372px 0;
+      }
+    }
+
+    &:nth-child(3){
+      color:#f2b62f;
+      .ict-diagram-item-title:after{
+        background:#f2b62f;
+      }
+
+      &:before{
+        background-position:-744px 0;
+      }
+    }
+
+    &-title{
+      margin-top:15px;
+      margin-bottom:35px;
+
+      position:relative;
+      font-size:28px;
+      font-family:neosans, SKPGo, sans-serif;
+
+      &:after{
+        content:"";
+        display:inline-block;
+        width:36px;
+        height:3px;
+        position:absolute;
+        top:48px;
+        left:50%;
+        margin-left:-18px;
+      }
+
+    }
+
+    &-desc{
+      color:#000;
+      line-height:1.8;
+    }
+  }
+
+  &-text{
+    width:710px;
+    height:60px;
+    margin:0 auto;
+    border:2px solid #ccc;
+
+    font-size:20px;
+    text-align:center;
+    line-height:63px;
+
+    border-radius:30px;
+  }
+
+}

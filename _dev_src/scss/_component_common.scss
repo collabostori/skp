@@ -3,13 +3,14 @@
 
   &-wrap{
     &-01{
-      margin:53px 0 45px;
+      margin:50px 0 38px;
     }
   }
 
   &-01{
     font-size:48px;
     color:#333;
+    font-family:neosans, SKPGo, sans-serif;
   }
 
   &-desc{
@@ -40,8 +41,7 @@
     float:left;
     //margin-top:6px;
     font-size:36px;
-    //line-height:36px;
-    color:#000;
+		line-height:1.2;
 
     span{
       display:block;
@@ -60,6 +60,12 @@
       border-top:1px solid #666;
       float:right;
       width:842px;
+			strong{
+				display:block;
+				color:#333;
+				font-size:18px;
+				font-weight:bold;
+			}
     }
     &-list{
       margin-bottom:30px;
@@ -70,6 +76,7 @@
       //line-height:20px;
       color:#f48024;
     }
+
     &-paragraph{
       font-size:14px;
       line-height:1.8;
@@ -87,6 +94,7 @@
     &-heading{
       padding-bottom:3px;
       font-size:36px;
+      font-weight:600;
     }
 
     &-desc{
@@ -102,6 +110,11 @@
         font-size:20px;
         //line-height:20px;
         color:#f48024;
+
+        &.list-type{
+          color:#333;
+          font-size:18px;
+        }
       }
 
       &-diagram{
@@ -117,7 +130,48 @@
         }
       }
     }
+
   }
+
+	&-object{
+		float:left;
+		dt{
+			margin-bottom:15px;
+			font-size:18px;
+			font-weight:bold;
+			color:#333;
+		}
+		dd{
+			float:left;
+			margin-right:31px;
+			font-size:16px;
+			color:#f48024;
+		}
+		dd:before{
+			margin-right:17px;
+			vertical-align:middle;
+			display:inline-block;
+			content:'';
+			width:61px;
+			height:61px;
+		}
+	}
+
+	&-student-jobseeker:before{
+		background:url("/images/student-jobseeker.png") no-repeat;
+	}
+	&-business-partner:before{
+		background:url("/images/business-partner.png") no-repeat;
+	}
+	&-ordinary-person:before{
+		background:url("/images/ordinary-person.png") no-repeat;
+	}
+	&-high-school:before{
+		background:url("/images/high-school.png") no-repeat;
+	}
+	&-elementary-school{
+		background:url("/images/elementary-school.png") no-repeat;
+	}
 }
 
 .paragraph{
@@ -188,6 +242,18 @@
   }
 }
 
+.arrow{
+	margin-top:45px;
+	&:after{
+    display:inline-block;
+    content:'';
+    width:10px;
+    height:7px;
+		margin:-2px 0 2px 24px;
+    background:url('/images/right-arrow.png') no-repeat;
+  }
+}
+
 // sub visual area
 .sub{
 
@@ -244,6 +310,68 @@
     }
 
   }
+
+	&-history{
+		&-wrap{
+			margin-top:100px;
+			padding:80px 0 100px;
+			background-color:#f8f8f8;
+			h3{
+				float:left;
+				margin-top:5px;
+			}
+		}
+
+		&-list{
+			color:#333;
+			float:left;
+			border-top:1px solid #666;
+			border-bottom:1px solid #666;
+			margin-left:290px;
+			width:842px;
+			&-item{
+				padding:35px 19px 32px;
+				border-top:1px solid #ccc;
+			}
+			&-item:first-child{
+				border-top:none;
+			}
+			&-item:after{
+				display:block;
+				content:'';
+				clear:both;
+			}
+			&-year{
+				float:left;
+				font-weight:bold;
+				font-size:18px;
+			}
+			&-depth{
+				float:left;
+				margin-left:40px;
+
+				&-item{
+					margin-top:14px;
+				}
+				&-item:first-child{
+					margin-top:0;
+				}
+			}
+			&-month{
+				font-weight:bold;
+				font-size:16px;
+				//line-height:16px;
+				display:inline-block;
+				width:35px;
+				text-align:right;
+				margin-right:20px;
+			}
+			&-text{
+				font-size:14px;
+				color:#666;
+			}
+		}
+	}
 
 }
 
