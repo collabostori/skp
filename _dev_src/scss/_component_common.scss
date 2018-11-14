@@ -1,3 +1,4 @@
+// headging type
 .heading{
 
   &-wrap{
@@ -25,6 +26,7 @@
   }
 }
 
+// paragraph type
 .text-content{
   margin-bottom:100px;
 
@@ -118,46 +120,29 @@
   }
 }
 
-.logo-mark{
-  &-wrap{
-    &:after{
-      display:block;
-      clear:both;
-      content:'';
-    }
+.paragraph{
+
+  &-strong{
+    font-size:20px;
+    color:#000;
+    line-height:1.8;
   }
-  &-left-content{
-    float:left;
-  }
-  &-right-content{
-    float:right;
-  }
-  &-logo-image{
-    float:left;
-  }
-  &-color{
-    float:left;
-    font-size:14px;
-    padding:14px 0 0 24px;
-    width:251px;
-    height:80px;
-    background-color:#f0f0f0;
-    dt{
-      line-height:14px;
-    }
-    &-red{
-      color:#ea002c;
-    }
-    &-orange{
-      color:#f58026;
-    }
-    dd{
-      line-height:1.8;
-      color:#666;
+
+  &-common{
+    margin-top:24px;
+
+    font-weight:300;
+    color:#666;
+    line-height:1.625;
+
+    strong{
+      font-size:16px;
+      color:#333;
     }
   }
 }
 
+// link button
 .content-link{
   display:inline-block;
   width: 220px;
@@ -203,49 +188,7 @@
   }
 }
 
-.paragraph{
-
-  &-strong{
-    font-size:20px;
-    color:#000;
-    line-height:1.8;
-  }
-
-  &-common{
-    margin-top:24px;
-
-    font-weight:300;
-    color:#666;
-    line-height:1.625;
-
-    strong{
-      font-size:16px;
-      color:#333;
-    }
-  }
-}
-
-.auto-graph{
-  display:inline-block;
-
-  &-wrap{
-    margin-top:40px;
-    text-align:right;
-  }
-
-  &:after{
-    content:"";
-    display:inline-block;
-    width:45px;
-    height:34px;
-    background:url(/images/ceo_auto_graph.png) no-repeat;
-    position: relative;
-    top: 9px;
-    margin-left: 15px;
-  }
-
-}
-
+// sub visual area
 .sub{
 
   &-visual{
@@ -285,10 +228,26 @@
 
     }
 
+    &-tab{
+      max-width:1200px;
+      height:450px;
+
+
+      &-item{
+        width:25px;
+      }
+
+      &-link{
+
+      }
+
+    }
+
   }
 
 }
 
+// diagram IR
 .diagram{
 
   &-01{
@@ -299,4 +258,3 @@
   }
 
 }
-
