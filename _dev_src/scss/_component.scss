@@ -36,9 +36,9 @@
 
   &-heading{
     float:left;
-    margin-top:6px;
+    //margin-top:6px;
     font-size:36px;
-    line-height:36px;
+    //line-height:36px;
     color:#000;
 
     span{
@@ -46,7 +46,7 @@
     }
 
     &-image{
-      margin-top:40px;
+      margin-top:30px;
       display:block;
     }
 
@@ -54,21 +54,25 @@
 
   &-desc{
     &-wrap{
+      padding-top:16px;
       border-top:1px solid #666;
       float:right;
       width:842px;
     }
+    &-list{
+      margin-bottom:30px;
+    }
     &-title{
-      margin:17px 0 33px;
+      margin-bottom:23px;
       font-size:20px;
-      line-height:20px;
+      //line-height:20px;
       color:#f48024;
     }
     &-paragraph{
       font-size:14px;
       line-height:1.8;
       color:#666;
-      margin-bottom:38px;
+
       em{
         color:#000;
       }
@@ -79,9 +83,37 @@
     margin-bottom:100px;
 
     &-heading{
-      padding-bottom:5px;
-      border-bottom:1px solid #000;
+      padding-bottom:3px;
       font-size:36px;
+    }
+
+    &-desc{
+      &-wrap{
+        padding-top:16px;
+        border-top:1px solid #666;
+      }
+      &-list{
+        margin-bottom:30px;
+      }
+      &-title{
+        margin-bottom:23px;
+        font-size:20px;
+        //line-height:20px;
+        color:#f48024;
+      }
+
+      &-diagram{
+        margin:36px 0;
+      }
+      &-paragraph{
+        font-size:14px;
+        line-height:1.8;
+        color:#666;
+
+        em{
+          color:#000;
+        }
+      }
     }
   }
 }
@@ -127,23 +159,47 @@
 }
 
 .content-link{
-  float:right;
-  margin-top:30px;
-  font-size:16px;
-  color:#979797;
-  padding:0 14px 0 15px;
-  height:46px;
-  line-height:46px;
-  border-radius:2px;
-  border:1px solid #979797;
+  display:inline-block;
+  width: 220px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: #979797;
+  padding: 15px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #979797;
+  text-align:left;
+  position:relative;
 
   &:after{
     display:inline-block;
-    content:'';
+    content:"";
     width:15px;
     height:13px;
-    margin-left:51px;
     background:url('/images/ci-manual-download.png') no-repeat;
+    position:absolute;
+    top:50%;
+    margin-top:-7px;
+    right:15px;
+  }
+
+  &.type-red{
+    border:0;
+    background:#e51837;
+    color:#fff;
+  }
+
+  &.more:after{
+    display:inline-block;
+    content:"";
+    width:10px;
+    height:7px;
+    margin-left:50px;
+    background:url('/images/bg_btn_link.png') no-repeat;
+    position:absolute;
+    top:50%;
+    margin-top:-4px;
+    right:15px;
   }
 }
 
@@ -233,5 +289,14 @@
 
 }
 
+.diagram{
 
+  &-01{
+    width:1200px;
+    height:171px;
+    background:url(/images/diagram_01.png) no-repeat;
+    text-indent:-99999em;
+  }
+
+}
 

@@ -108,18 +108,22 @@
       font-size:16px;
       font-weight:600;
 
+      &:after{
+        content:"";
+        display:block;
+        width:100%;
+        height:3px;
+        background-color:transparent;
+        position:absolute;
+        left:0;
+        bottom:0;
+      }
+
       &:hover, &.on{
         color:#e51837;
 
         &:after{
-          content:"";
-          display:block;
-          width:100%;
-          height:3px;
-          background:#e51837;
-          position:absolute;
-          left:0;
-          bottom:0;
+          background-color:#e51837;
         }
       }
     }
@@ -146,3 +150,101 @@
   }
 }
 
+@media screen and (max-width:1280px){
+
+  .header{
+    height:auto;
+
+    &-logo{
+      position:static;
+    }
+
+    &-util{
+      position:static;
+
+      &-item{
+        border-left:0;
+        float:none;
+      }
+    }
+
+  }
+
+  .gnb{
+    padding-top:0;
+    width:auto;
+    margin:auto;
+
+    &:before{
+      display:none;
+    }
+
+    &-depth1{
+
+      &-item{
+        width:auto;
+        float:none;
+        text-align:left;
+      }
+
+      &-link{
+        display: block;
+        padding:16px 15px 14px;
+        font-size: 12px;
+        border-bottom: 1px solid #ccc;
+
+        &:after{
+          content:"";
+          display:block;
+          width:7px;
+          height:7px;
+          margin-top:-2px;
+          background:url(/images/spr_btn_mobile_depth1.png) no-repeat 0 -12px;
+          background-size:cover;
+          position:absolute;
+          top:50%;
+          left:auto;
+          bottom:auto;
+          right:15px;
+        }
+
+        &:hover{
+          background-color:transparent;
+        }
+
+        &.on{
+
+          &:after{
+            background-color:transparent;
+            background-position:0 0;
+          }
+
+        }
+      }
+
+    }
+
+    &-depth2{
+      width: auto;
+      height: auto;
+      border: 0;
+      padding: 20px 15px;
+      background: #f5f5f5;
+      border-bottom: 1px solid #ccc;
+
+      &-item{
+        margin-bottom:13px;
+        text-align:left;
+
+        &:last-child{
+          margin-bottom:0;
+        }
+      }
+
+      &-link{
+        font-size:12px;
+      }
+    }
+  }
+
+}
