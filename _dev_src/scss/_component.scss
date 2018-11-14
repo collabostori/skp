@@ -36,23 +36,34 @@
 
   &-heading{
     float:left;
-    margin-top:6px;
+    //margin-top:6px;
     font-size:36px;
+<<<<<<< HEAD
     color:#000;
 		line-height:1.2;
+=======
+    //line-height:36px;
+    color:#000;
+
+>>>>>>> e255fe44549fc91d6352ea6ce25f5e9395ec4aea
     span{
       display:block;
     }
 
     &-image{
-      margin-top:40px;
+      margin-top:30px;
       display:block;
     }
+
   }
 
   &-desc{
     &-wrap{
+<<<<<<< HEAD
 			padding-top:17px;
+=======
+      padding-top:16px;
+>>>>>>> e255fe44549fc91d6352ea6ce25f5e9395ec4aea
       border-top:1px solid #666;
       float:right;
       width:842px;
@@ -63,11 +74,19 @@
 				font-weight:bold;
 			}
     }
+<<<<<<< HEAD
 
     &-title{
       margin-bottom:33px;
+=======
+    &-list{
+      margin-bottom:30px;
+    }
+    &-title{
+      margin-bottom:23px;
+>>>>>>> e255fe44549fc91d6352ea6ce25f5e9395ec4aea
       font-size:20px;
-      line-height:20px;
+      //line-height:20px;
       color:#f48024;
     }
 
@@ -75,7 +94,7 @@
       font-size:14px;
       line-height:1.8;
       color:#666;
-      margin-bottom:38px;
+
       em{
         color:#000;
       }
@@ -84,6 +103,7 @@
 
   &-02{
     margin-bottom:100px;
+<<<<<<< HEAD
     &-heading{
       padding-bottom:5px;
       border-bottom:1px solid #000;
@@ -128,6 +148,43 @@
 	&-elementary-school{
 		background:url("/images/elementary-school.png") no-repeat;
 	}
+=======
+
+    &-heading{
+      padding-bottom:3px;
+      font-size:36px;
+    }
+
+    &-desc{
+      &-wrap{
+        padding-top:16px;
+        border-top:1px solid #666;
+      }
+      &-list{
+        margin-bottom:30px;
+      }
+      &-title{
+        margin-bottom:23px;
+        font-size:20px;
+        //line-height:20px;
+        color:#f48024;
+      }
+
+      &-diagram{
+        margin:36px 0;
+      }
+      &-paragraph{
+        font-size:14px;
+        line-height:1.8;
+        color:#666;
+
+        em{
+          color:#000;
+        }
+      }
+    }
+  }
+>>>>>>> e255fe44549fc91d6352ea6ce25f5e9395ec4aea
 }
 
 .logo-mark{
@@ -172,6 +229,7 @@
 }
 
 .content-link{
+<<<<<<< HEAD
   float:right;
   font-size:16px;
   color:#979797;
@@ -180,15 +238,93 @@
   line-height:46px;
   border-radius:2px;
   border:1px solid #979797;
+=======
+  display:inline-block;
+  width: 220px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: #979797;
+  padding: 15px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #979797;
+  text-align:left;
+  position:relative;
+>>>>>>> e255fe44549fc91d6352ea6ce25f5e9395ec4aea
 
   &:after{
     display:inline-block;
-    content:'';
+    content:"";
     width:15px;
     height:13px;
-    margin-left:51px;
     background:url('/images/ci-manual-download.png') no-repeat;
+    position:absolute;
+    top:50%;
+    margin-top:-7px;
+    right:15px;
   }
+
+  &.type-red{
+    border:0;
+    background:#e51837;
+    color:#fff;
+  }
+
+  &.more:after{
+    display:inline-block;
+    content:"";
+    width:10px;
+    height:7px;
+    margin-left:50px;
+    background:url('/images/bg_btn_link.png') no-repeat;
+    position:absolute;
+    top:50%;
+    margin-top:-4px;
+    right:15px;
+  }
+}
+
+.paragraph{
+
+  &-strong{
+    font-size:20px;
+    color:#000;
+    line-height:1.8;
+  }
+
+  &-common{
+    margin-top:24px;
+
+    font-weight:300;
+    color:#666;
+    line-height:1.625;
+
+    strong{
+      font-size:16px;
+      color:#333;
+    }
+  }
+}
+
+.auto-graph{
+  display:inline-block;
+
+  &-wrap{
+    margin-top:40px;
+    text-align:right;
+  }
+
+  &:after{
+    content:"";
+    display:inline-block;
+    width:45px;
+    height:34px;
+    background:url(/images/ceo_auto_graph.png) no-repeat;
+    position: relative;
+    top: 9px;
+    margin-left: 15px;
+  }
+
 }
 .arrow{
 	margin-top:45px;
@@ -349,5 +485,57 @@
 
 }
 
+.sub{
 
+  &-visual{
+    margin-bottom:76px;
+    position:relative;
+
+    &-image{
+      display:block;
+    }
+
+    &-slogan{
+
+      &-wrap{
+        width:470px;
+        height:380px;
+        padding:90px 0 90px 52px;
+        background:#f58026;
+        position: absolute;
+        top: -30px;
+        right: 40px;
+      }
+
+      &-narrow{
+        font-size:28px;
+        font-weight:300;
+        color:#fff;
+        line-height:1.4;
+      }
+
+      &-bold{
+        margin-top:42px;
+        font-size:28px;
+        font-weight:600;
+        color:#fff;
+        line-height:1.4;
+      }
+
+    }
+
+  }
+
+}
+
+.diagram{
+
+  &-01{
+    width:1200px;
+    height:171px;
+    background:url(/images/diagram_01.png) no-repeat;
+    text-indent:-99999em;
+  }
+
+}
 
