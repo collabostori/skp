@@ -123,6 +123,12 @@ gulp.task('release:fonts', function(){
       .pipe(gulp.dest('release/fonts/'));
 });
 
+// release data
+gulp.task('release:data', function(){
+  return gulp.src('data/**')
+      .pipe(gulp.dest('release/data/'));
+});
+
 /**
  * reload
  */
@@ -163,7 +169,7 @@ gulp.task('default', ['build:include:html', 'build:sass:dev', 'build:js:compress
 gulp.task('seperate', ['seperate:copy:jsLib', 'seperate:build:kor:fileListJson', 'seperate:build:eng:fileListJson', 'seperate:build:err:fileListJson']);
 
 // init release task
-gulp.task('init:release', ['release:html', 'release:sass', 'release:js:compress', 'release:copy:jsLib', 'release:images', 'release:fonts']);
+gulp.task('init:release', ['release:html', 'release:sass', 'release:js:compress', 'release:copy:jsLib', 'release:images', 'release:fonts', 'release:data']);
 
 // common release task
-gulp.task('common:release', ['release:html', 'release:sass', 'release:js:compress', 'release:copy:jsLib', 'release:images']);
+gulp.task('common:release', ['release:html', 'release:sass', 'release:js:compress', 'release:copy:jsLib', 'release:images', 'release:data']);

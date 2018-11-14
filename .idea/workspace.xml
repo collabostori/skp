@@ -2,29 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1440de91-548c-4a85-81ff-0a9278bd5fff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_002.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_003.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/html/_include/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/html/_include/_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/html/src/guide/skp_style_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/html/src/guide/skp_style_guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_004.html" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_004.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_001.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/scss/_component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/scss/_component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/scss/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/scss/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/guide/skp_style_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/guide/skp_style_guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KA_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KA_001.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KA_002.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KA_002.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KA_003.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KA_003.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KA_004.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KA_004.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KB_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KB_001.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KB_004.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KB_004.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_002.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_002.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_003.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_003.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_004.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_004.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_005.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_005.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_006.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_006.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/guide/skp_style_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KA_001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KA_002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KA_003.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KA_004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KB_001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KB_002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KB_003.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KB_004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KP_001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KP_002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KP_003.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KP_004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KP_005.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/html/kor/SKP_KP_006.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/ai-chatbot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/bg_btn_link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/board-item-no-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/board-item-temp-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/board-view-no-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/business-partner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/ceo-photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/ceo_auto_graph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/ci-manual-download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/cloud_streaming.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/communication-service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/companion-growth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/company-overview-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/datainfra-business-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/diagram_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/elementary-school.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/file_attach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/high-school.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/ict-synergy-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/klink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/location_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/logo_mark_skp_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/marketing-platform-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/nugu-planning-development.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/orange_butterfly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/ordinary-person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/red_butterfly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/right-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/rubix_brain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/sk_mservice_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/skp_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/skp_logo_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/spr_board_view_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/spr_btn_mobile_depth1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/spr_paging_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/student-jobseeker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/subsidiary-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/t-coloring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/t-id.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/tacademy_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/vision-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/images/weatherpong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/js/function.debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/js/function.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/js/lib/jquery-3.1.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/js/lib/jquery-3.1.1.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/js/lib/jquery.selectric.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/js/lib/jquery.selectric.min.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,24 +81,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_dev_src/html/_include/_header.html">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_dev_src/scss/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="211" column="39" selection-start-line="211" selection-start-column="39" selection-end-line="211" selection-end-column="39" />
-              <folding>
-                <element signature="e#7#926#0" />
-                <element signature="e#1240#1311#0" />
-              </folding>
+            <state relative-caret-position="592">
+              <caret line="174" column="138" selection-start-line="174" selection-start-column="138" selection-end-line="174" selection-end-column="138" />
             </state>
           </provider>
         </entry>
@@ -73,14 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jquery</find>
-      <find>selec</find>
-      <find>jquery-ui.css</find>
-      <find>w100</find>
-      <find>ㅓㅁ색어</find>
-      <find>ㅗㅇㄱ</find>
-      <find>sub-top</find>
-      <find>sub_top</find>
       <find>ㅏㅇ의</find>
       <find>datepicker</find>
       <find>chk-</find>
@@ -102,7 +124,15 @@
       <find>&lt;td sty</find>
       <find>&lt;img</find>
       <find>gray</find>
+      <find>logo-mark</find>
+      <find>content-link</find>
+      <find>tab-</find>
+      <find>paragraph-</find>
+      <find>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</find>
       <find>line-height</find>
+      <find>&lt;li&gt;</find>
+      <find>heading-01</find>
+      <find>only-eng</find>
     </findStrings>
     <replaceStrings>
       <replace>https://www.makeall.com/css/</replace>
@@ -112,9 +142,15 @@
       <replace />
       <replace>sub_top</replace>
       <replace>/fonts</replace>
+      <replace>visual-tab</replace>
+      <replace>visual-tab-</replace>
+      <replace>&lt;li class=&quot;sub-history-list-item&gt;</replace>
+      <replace>&lt;li class=&quot;sub-history-list-item&quot;&gt;</replace>
+      <replace>&lt;li class=&quot;sub-history-list-depth-item&quot;&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/_dev_src/html</dir>
+      <dir>$PROJECT_DIR$/_dev_src/scss</dir>
       <dir>$PROJECT_DIR$/_dev_src/html/src/kor</dir>
     </dirStrings>
   </component>
@@ -124,11 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_dev_src/html/sub_search_06_02_02.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/sub_search_06_03_01.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/sub_search_06_03_02.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/sub_search_06_04_01.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/sub_search_06_04_02.html" />
         <option value="$PROJECT_DIR$/_dev_src/html/sub_search_06_05_01.html" />
         <option value="$PROJECT_DIR$/_dev_src/html/sub_search_06_05_02.html" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_space_search.scss" />
@@ -149,9 +180,7 @@
         <option value="$PROJECT_DIR$/_dev_src/scss/_reset.scss" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_form.scss" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_selectric.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/_dev_src/js/_component.js" />
-        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_004.html" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_table.scss" />
         <option value="$PROJECT_DIR$/_dev_src/html/_include/_footer.html" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_footer.scss" />
@@ -159,22 +188,29 @@
         <option value="$PROJECT_DIR$/_dev_src/scss/_icon.scss" />
         <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_003.html" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_board.scss" />
-        <option value="$PROJECT_DIR$/_dev_src/scss/style.scss" />
-        <option value="$PROJECT_DIR$/_dev_src/scss/_additional.scss" />
         <option value="$PROJECT_DIR$/data/file_list_kor.json" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_003.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_002.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_001.html" />
         <option value="$PROJECT_DIR$/_dev_src/html/src/guide/skp_style_guide.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_004.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_001.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_002.html" />
-        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_003.html" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_component.scss" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_layout.scss" />
         <option value="$PROJECT_DIR$/_dev_src/html/_include/_header.html" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_header.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_dev_src/scss/style.scss" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_004.html" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_001.html" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_002.html" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_004.html" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_001.html" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_003.html" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_001.html" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_002.html" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_003.html" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_004.html" />
+        <option value="$PROJECT_DIR$/_dev_src/scss/_additional.scss" />
+        <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_002.html" />
+        <option value="$PROJECT_DIR$/_dev_src/scss/_component_common.scss" />
+        <option value="$PROJECT_DIR$/_dev_src/scss/_component_single.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -228,6 +264,9 @@
             <task-name>release:fonts</task-name>
           </GulpTaskState>
           <GulpTaskState>
+            <task-name>release:data</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
             <task-name>reload:livereload</task-name>
           </GulpTaskState>
           <GulpTaskState>
@@ -263,6 +302,7 @@
               <dependency value="release:copy:jsLib" />
               <dependency value="release:images" />
               <dependency value="release:fonts" />
+              <dependency value="release:data" />
             </dependencies>
             <task-name>init:release</task-name>
           </GulpTaskState>
@@ -273,6 +313,7 @@
               <dependency value="release:js:compress" />
               <dependency value="release:copy:jsLib" />
               <dependency value="release:images" />
+              <dependency value="release:data" />
             </dependencies>
             <task-name>common:release</task-name>
           </GulpTaskState>
@@ -302,6 +343,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,35 +351,10 @@
               <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="_dev_src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="_dev_src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="_dev_src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="_include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="_dev_src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,9 +464,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gulp.js.common:release" />
         <item itemvalue="Gulp.js.default" />
         <item itemvalue="Gulp.js.seperate" />
-        <item itemvalue="Gulp.js.common:release" />
         <item itemvalue="Gulp.js.init:release" />
         <item itemvalue="Gulp.js.release" />
       </list>
@@ -521,11 +538,12 @@
       <workItem from="1542017789293" duration="10287000" />
       <workItem from="1542079901798" duration="617000" />
       <workItem from="1542085924179" duration="4389000" />
+      <workItem from="1542162622099" duration="14899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320026000" />
+    <option name="totallyTimeSpent" value="334925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,16 +557,17 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <layout>
-      <window_info active="true" id="Gulp" order="2" sideWeight="0.4473684" side_tool="true" visible="true" weight="0.17829457" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55263156" visible="true" weight="0.17829457" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="npm" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3263158" />
-      <window_info id="Structure" order="1" sideWeight="0.5171053" side_tool="true" weight="0.17054264" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3276316" />
+      <window_info id="Gulp" order="2" sideWeight="0.4473684" side_tool="true" weight="0.17829457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55263156" visible="true" weight="0.17829457" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3276316" />
+      <window_info id="Structure" order="1" sideWeight="0.5171053" side_tool="true" weight="0.17054264" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,27 +576,26 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3276316" />
     </layout>
     <layout-to-restore>
-      <window_info id="Gulp" order="2" sideWeight="0.44335938" side_tool="true" weight="0.15715292" />
+      <window_info id="Gulp" order="2" sideWeight="0.44726562" side_tool="true" weight="0.17829457" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5566406" visible="true" weight="0.15715292" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5527344" visible="true" weight="0.17829457" />
       <window_info id="Structure" order="1" sideWeight="0.5171053" side_tool="true" weight="0.17054264" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3263158" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3276316" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3276316" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3276316" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -593,15 +611,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/release/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_dev_src/html/mypage_01_01.html" />
     <entry file="file://$PROJECT_DIR$/html/mypage_01.html" />
     <entry file="file://$PROJECT_DIR$/../../makeall/frontend/_dev_src/html/mypage_01_01.html">
@@ -662,24 +671,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_dev_src/scss/jquery.selectric.js" />
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_dev_src/js/_component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_004.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -697,34 +692,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/file_list_kor.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_additional.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_dev_src/scss/_board.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_font.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -749,31 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_selectric.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="270" column="7" selection-start-line="270" selection-start-column="7" selection-end-line="270" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_dev_src/scss/_table.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -784,73 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_003.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_002.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_001.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_002.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="55" column="33" lean-forward="true" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_004.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_dev_src/html/src/guide/skp_style_guide.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="743">
           <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_001.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_002.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_003.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -876,6 +766,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="29" column="75" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_selectric.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="187" column="4" selection-start-line="187" selection-start-column="4" selection-end-line="187" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_font.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_004.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_002.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_004.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KP_001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_003.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KB_002.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_003.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_004.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_002.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#!!top" />
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#!!top" />
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#!!top" />
+            <element signature="n#ul#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#!!top" />
+            <element signature="n#ul#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#!!top" />
+            <element signature="n#ul#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_additional.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="61" column="41" lean-forward="true" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="41" />
+          <folding>
+            <element signature="e#28#76#0" />
+            <element signature="e#99#215#0" />
+            <element signature="e#232#298#0" />
+            <element signature="e#324#424#0" />
+            <element signature="e#442#465#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_component_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="340" column="19" selection-start-line="340" selection-start-column="19" selection-end-line="340" selection-end-column="19" />
+          <folding>
+            <element signature="e#381#437#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_component_single.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="134" column="45" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
+          <folding>
+            <element signature="e#10#531#0" />
+            <element signature="e#544#840#0" />
+            <element signature="e#1096#1179#0" />
+            <element signature="e#1199#1227#0" />
+            <element signature="e#1247#1275#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="174" column="138" selection-start-line="174" selection-start-column="138" selection-end-line="174" selection-end-column="138" />
         </state>
       </provider>
     </entry>

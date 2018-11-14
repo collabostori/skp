@@ -1,14 +1,16 @@
+// headging type
 .heading{
 
   &-wrap{
     &-01{
-      margin:53px 0 45px;
+      margin:50px 0 38px;
     }
   }
 
   &-01{
     font-size:48px;
     color:#333;
+    font-family:neosans, SKPGo, sans-serif;
   }
 
   &-desc{
@@ -25,6 +27,7 @@
   }
 }
 
+// paragraph type
 .text-content{
   margin-bottom:100px;
 
@@ -38,14 +41,8 @@
     float:left;
     //margin-top:6px;
     font-size:36px;
-<<<<<<< HEAD
-    color:#000;
 		line-height:1.2;
-=======
-    //line-height:36px;
-    color:#000;
 
->>>>>>> e255fe44549fc91d6352ea6ce25f5e9395ec4aea
     span{
       display:block;
     }
@@ -59,11 +56,7 @@
 
   &-desc{
     &-wrap{
-<<<<<<< HEAD
-			padding-top:17px;
-=======
       padding-top:16px;
->>>>>>> e255fe44549fc91d6352ea6ce25f5e9395ec4aea
       border-top:1px solid #666;
       float:right;
       width:842px;
@@ -74,17 +67,11 @@
 				font-weight:bold;
 			}
     }
-<<<<<<< HEAD
-
-    &-title{
-      margin-bottom:33px;
-=======
     &-list{
       margin-bottom:30px;
     }
     &-title{
       margin-bottom:23px;
->>>>>>> e255fe44549fc91d6352ea6ce25f5e9395ec4aea
       font-size:20px;
       //line-height:20px;
       color:#f48024;
@@ -103,13 +90,49 @@
 
   &-02{
     margin-bottom:100px;
-<<<<<<< HEAD
+
     &-heading{
-      padding-bottom:5px;
-      border-bottom:1px solid #000;
+      padding-bottom:3px;
       font-size:36px;
+      font-weight:600;
     }
+
+    &-desc{
+      &-wrap{
+        padding-top:16px;
+        border-top:1px solid #666;
+      }
+      &-list{
+        margin-bottom:30px;
+      }
+      &-title{
+        margin-bottom:23px;
+        font-size:20px;
+        //line-height:20px;
+        color:#f48024;
+
+        &.list-type{
+          color:#333;
+          font-size:18px;
+        }
+      }
+
+      &-diagram{
+        margin:36px 0;
+      }
+      &-paragraph{
+        font-size:14px;
+        line-height:1.8;
+        color:#666;
+
+        em{
+          color:#000;
+        }
+      }
+    }
+
   }
+
 	&-object{
 		float:left;
 		dt{
@@ -133,6 +156,7 @@
 			height:61px;
 		}
 	}
+
 	&-student-jobseeker:before{
 		background:url("/images/student-jobseeker.png") no-repeat;
 	}
@@ -148,97 +172,32 @@
 	&-elementary-school{
 		background:url("/images/elementary-school.png") no-repeat;
 	}
-=======
-
-    &-heading{
-      padding-bottom:3px;
-      font-size:36px;
-    }
-
-    &-desc{
-      &-wrap{
-        padding-top:16px;
-        border-top:1px solid #666;
-      }
-      &-list{
-        margin-bottom:30px;
-      }
-      &-title{
-        margin-bottom:23px;
-        font-size:20px;
-        //line-height:20px;
-        color:#f48024;
-      }
-
-      &-diagram{
-        margin:36px 0;
-      }
-      &-paragraph{
-        font-size:14px;
-        line-height:1.8;
-        color:#666;
-
-        em{
-          color:#000;
-        }
-      }
-    }
-  }
->>>>>>> e255fe44549fc91d6352ea6ce25f5e9395ec4aea
 }
 
-.logo-mark{
-  &-wrap{
-		margin-bottom:30px;
-    &:after{
-      display:block;
-      clear:both;
-      content:'';
-    }
+.paragraph{
+
+  &-strong{
+    font-size:20px;
+    color:#000;
+    line-height:1.8;
   }
-  &-left-content{
-    float:left;
-  }
-  &-right-content{
-    float:right;
-  }
-  &-logo-image{
-    float:left;
-  }
-  &-color{
-    float:left;
-    font-size:14px;
-    padding:14px 0 0 24px;
-    width:251px;
-    height:80px;
-    background-color:#f0f0f0;
-    dt{
-      line-height:14px;
-    }
-    &-red{
-      color:#ea002c;
-    }
-    &-orange{
-      color:#f58026;
-    }
-    dd{
-      line-height:1.8;
-      color:#666;
+
+  &-common{
+    margin-top:24px;
+
+    font-weight:300;
+    color:#666;
+    line-height:1.625;
+
+    strong{
+      font-size:16px;
+      color:#333;
     }
   }
 }
 
+// link button
 .content-link{
-<<<<<<< HEAD
-  float:right;
-  font-size:16px;
-  color:#979797;
-  padding:0 14px 0 15px;
-  height:46px;
-  line-height:46px;
-  border-radius:2px;
-  border:1px solid #979797;
-=======
   display:inline-block;
   width: 220px;
   margin-top: 30px;
@@ -250,7 +209,6 @@
   border: 1px solid #979797;
   text-align:left;
   position:relative;
->>>>>>> e255fe44549fc91d6352ea6ce25f5e9395ec4aea
 
   &:after{
     display:inline-block;
@@ -284,48 +242,6 @@
   }
 }
 
-.paragraph{
-
-  &-strong{
-    font-size:20px;
-    color:#000;
-    line-height:1.8;
-  }
-
-  &-common{
-    margin-top:24px;
-
-    font-weight:300;
-    color:#666;
-    line-height:1.625;
-
-    strong{
-      font-size:16px;
-      color:#333;
-    }
-  }
-}
-
-.auto-graph{
-  display:inline-block;
-
-  &-wrap{
-    margin-top:40px;
-    text-align:right;
-  }
-
-  &:after{
-    content:"";
-    display:inline-block;
-    width:45px;
-    height:34px;
-    background:url(/images/ceo_auto_graph.png) no-repeat;
-    position: relative;
-    top: 9px;
-    margin-left: 15px;
-  }
-
-}
 .arrow{
 	margin-top:45px;
 	&:after{
@@ -338,49 +254,7 @@
   }
 }
 
-.paragraph{
-
-  &-strong{
-    font-size:20px;
-    color:#000;
-    line-height:1.8;
-  }
-
-  &-common{
-    margin-top:24px;
-
-    font-weight:300;
-    color:#666;
-    line-height:1.625;
-
-    strong{
-      font-size:16px;
-      color:#333;
-    }
-  }
-}
-
-.auto-graph{
-  display:inline-block;
-
-  &-wrap{
-    margin-top:40px;
-    text-align:right;
-  }
-
-  &:after{
-    content:"";
-    display:inline-block;
-    width:45px;
-    height:34px;
-    background:url(/images/ceo_auto_graph.png) no-repeat;
-    position: relative;
-    top: 9px;
-    margin-left: 15px;
-  }
-
-}
-
+// sub visual area
 .sub{
 
   &-visual{
@@ -416,6 +290,21 @@
         font-weight:600;
         color:#fff;
         line-height:1.4;
+      }
+
+    }
+
+    &-tab{
+      max-width:1200px;
+      height:450px;
+
+
+      &-item{
+        width:25px;
+      }
+
+      &-link{
+
       }
 
     }
@@ -432,6 +321,7 @@
 				margin-top:5px;
 			}
 		}
+
 		&-list{
 			color:#333;
 			float:left;
@@ -439,14 +329,14 @@
 			border-bottom:1px solid #666;
 			margin-left:290px;
 			width:842px;
-			>li{
-				padding:35px 19px;
+			&-item{
+				padding:35px 19px 32px;
 				border-top:1px solid #ccc;
 			}
-			>li:first-child{
+			&-item:first-child{
 				border-top:none;
 			}
-			>li:after{
+			&-item:after{
 				display:block;
 				content:'';
 				clear:both;
@@ -455,22 +345,22 @@
 				float:left;
 				font-weight:bold;
 				font-size:18px;
-				line-height:18px;
 			}
 			&-depth{
 				float:left;
 				margin-left:40px;
-				li{
-					margin-top:21px;
+
+				&-item{
+					margin-top:14px;
 				}
-				li:first-child{
+				&-item:first-child{
 					margin-top:0;
 				}
 			}
 			&-month{
 				font-weight:bold;
 				font-size:16px;
-				line-height:16px;
+				//line-height:16px;
 				display:inline-block;
 				width:35px;
 				text-align:right;
@@ -485,49 +375,7 @@
 
 }
 
-.sub{
-
-  &-visual{
-    margin-bottom:76px;
-    position:relative;
-
-    &-image{
-      display:block;
-    }
-
-    &-slogan{
-
-      &-wrap{
-        width:470px;
-        height:380px;
-        padding:90px 0 90px 52px;
-        background:#f58026;
-        position: absolute;
-        top: -30px;
-        right: 40px;
-      }
-
-      &-narrow{
-        font-size:28px;
-        font-weight:300;
-        color:#fff;
-        line-height:1.4;
-      }
-
-      &-bold{
-        margin-top:42px;
-        font-size:28px;
-        font-weight:600;
-        color:#fff;
-        line-height:1.4;
-      }
-
-    }
-
-  }
-
-}
-
+// diagram IR
 .diagram{
 
   &-01{
@@ -538,4 +386,3 @@
   }
 
 }
-
