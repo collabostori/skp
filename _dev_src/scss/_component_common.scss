@@ -20,6 +20,11 @@
       margin-top:4px;
       line-height:1.5;
       font-size:16px;
+
+			em{
+				font-weight:bold;
+			}
+
     }
   }
   &-bg-wrap{
@@ -384,5 +389,33 @@
     background:url(/images/diagram_01.png) no-repeat;
     text-indent:-99999em;
   }
+
+}
+
+.benefits-package{
+	&-list{
+		float:left;
+		margin-right:19px;
+		margin-bottom:19px;
+		text-align:center;
+		padding:35px 0;
+		width:266px;
+		height:266px;
+		border:1px solid #ccc;
+	}
+	
+	&-definition-list{
+		&-term{
+			font-size:16px;
+			color:#333;
+
+			p{
+				margin:22px 0 14px;
+			}
+		}
+	}
+
+	
+
 
 }
