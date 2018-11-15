@@ -23,7 +23,9 @@
 			em{
 				font-weight:bold;
 			}
-
+			&-font-color-red{
+				color:#e51937;
+			}
     }
   }
   &-bg-wrap{
@@ -407,16 +409,86 @@
 		&-term{
 			font-size:16px;
 			color:#333;
-
 			p{
 				margin:22px 0 14px;
 			}
 		}
 	}
+}
 
-	
+.site-map-content{
+	&-wrap{
 
+		&:after{
+			display:block;
+			content:'';
+			clear:both;
+		}
+	}
+	&-list{
+		float:left;
+		border-left:1px solid #ccc;
+		padding-left:30px;
+		width:240px;
+		height:232px;
+		font-size:16px;
+		>a{
+			font-weight:bold;
+			color:#e51837;
+		}
+		&:first-child{
+			border-left:none;
+		}
+	}
+	&-2depth{
+		margin-top:52px;
+		&-list{
+			line-height:40px;
 
+			:hover{
+				color:#e51837;
+			}
+		}
+	}
+}
+
+.location-terms-of-use{
+	&-wrap{
+		font-size:16px;
+		line-height:1.5;
+		color:#000;
+	}
+	&-title{
+		font-weight:bold;
+	}
+	&-content{
+		margin:27px 0;
+	}
+	&-ordered{
+		&-2depth{
+			margin-bottom:32px;
+		}
+	}
+	&-service-type{
+		margin-top:12px;
+		font-size:20px;
+		font-weight:bold;
+	}
+}
+
+.pangyo-office {
+  &-wrap {
+    font-size: 14px;
+    color: #666;
+  }
+  &-info-list {
+    &-2depth {
+      float: left;
+    }
+    span {
+      float: left;
+    }
+  }
 }
 
 @media screen and (max-width:1280px){

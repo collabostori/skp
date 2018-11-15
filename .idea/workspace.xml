@@ -2,40 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1440de91-548c-4a85-81ff-0a9278bd5fff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_dev_src/js/_menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/html/_include/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/html/_include/_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/html/_include/_location_kp_03.html" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/html/_include/_location_kp_03.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/html/_include/_mobile_tnb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/html/_include/_mobile_tnb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KC_001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KE_001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KE_002.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KE_004.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/kor/SKP_EE_001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/kor/SKP_KC_001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/kor/SKP_KE_001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/kor/SKP_KE_002.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/kor/SKP_KE_004.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/directions-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/talented-person-bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_dev_src/scss/_component_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/scss/_component_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/scss/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/scss/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/scss/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_dev_src/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_dev_src/scss/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/file_list_kor.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/file_list_kor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/guide/skp_style_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/guide/skp_style_guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KA_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KA_001.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/kor/SKP_KA_002.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KA_002.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KA_003.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KA_003.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KA_004.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KA_004.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KB_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KB_001.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KB_002.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KB_002.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KB_003.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KB_003.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KB_004.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KB_004.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KB_005.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KB_005.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KB_006.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KB_006.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KC_002.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KC_002.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KC_003.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KC_003.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KC_004.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KC_004.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_001.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_001.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_002.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_002.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_003.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_003.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_004.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_004.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_005.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_005.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/kor/SKP_KP_006.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/kor/SKP_KP_006.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/function.debug.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/function.debug.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/function.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/function.min.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,91 +30,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_dev_src/scss/_layout.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="520">
-                  <caret line="56" selection-start-line="56" selection-end-line="56" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#680#686#0" />
-                    <element signature="e#958#962#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/_dev_src/scss/_footer.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="592">
-                  <caret line="211" column="27" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#170#269#0" />
-                    <element signature="e#281#1331#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_menu.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_dev_src/js/_menu.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-                  <folding>
-                    <element signature="e#136#581#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_component_common.scss" pinned="false" current-in-tab="false">
+        <leaf>
+          <file leaf-file-name="_component_common.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_dev_src/scss/_component_common.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-234">
-                  <caret line="21" selection-start-line="21" selection-end-line="21" />
-                  <folding>
-                    <element signature="e#426#2680#0" />
-                    <element signature="e#2692#2927#0" />
-                    <element signature="e#2957#3729#0" />
-                    <element signature="e#3737#3929#0" />
-                    <element signature="e#4028#4056#0" />
-                    <element signature="e#4085#4268#0" />
-                    <element signature="e#4284#4387#0" />
-                    <element signature="e#4401#4529#0" />
-                    <element signature="e#4547#4667#0" />
-                    <element signature="e#4684#5609#0" />
-                    <element signature="e#5636#5769#0" />
-                    <element signature="e#5788#6069#0" />
-                    <element signature="e#6107#6113#0" />
-                    <element signature="e#6278#6284#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_dev_src/scss/_header.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="152" column="36" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#7#926#0" />
-                    <element signature="e#932#2056#0" />
-                    <element signature="e#2094#6110#0" />
-                    <element signature="e#2694#3723#0" />
-                    <element signature="e#4088#4442#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_location_kp_03.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_dev_src/html/_include/_location_kp_03.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+                <state relative-caret-position="606">
+                  <caret line="529" selection-start-line="529" selection-end-line="529" />
                 </state>
               </provider>
             </entry>
@@ -143,20 +44,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="_mobile_tnb.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/_dev_src/html/_include/_mobile_tnb.html">
+          <file leaf-file-name="_component_common.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/_dev_src/scss/_component_common.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SKP_KA_001.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_001.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="-6579">
+                  <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
                 </state>
               </provider>
             </entry>
@@ -275,7 +167,6 @@
         <option value="$PROJECT_DIR$/_dev_src/js/gnb.js" />
         <option value="$PROJECT_DIR$/_dev_src/html/_include/_header.html" />
         <option value="$PROJECT_DIR$/_dev_src/js/_gnb.js" />
-        <option value="$PROJECT_DIR$/_dev_src/scss/_component_common.scss" />
         <option value="$PROJECT_DIR$/_dev_src/html/_include/_mobile_tnb.html" />
         <option value="$PROJECT_DIR$/_dev_src/html/src/kor/SKP_KA_001.html" />
         <option value="$PROJECT_DIR$/_dev_src/html/_include/_location_kp_03.html" />
@@ -284,6 +175,7 @@
         <option value="$PROJECT_DIR$/_dev_src/scss/_header.scss" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_reset.scss" />
         <option value="$PROJECT_DIR$/_dev_src/scss/_footer.scss" />
+        <option value="$PROJECT_DIR$/_dev_src/scss/_component_common.scss" />
       </list>
     </option>
   </component>
@@ -658,12 +550,12 @@
       <workItem from="1542085924179" duration="4389000" />
       <workItem from="1542162622099" duration="17234000" />
       <workItem from="1542197006657" duration="119000" />
-      <workItem from="1542267857452" duration="21837000" />
+      <workItem from="1542267857452" duration="22226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359216000" />
+    <option name="totallyTimeSpent" value="359605000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,7 +899,7 @@
     <entry file="file://$PROJECT_DIR$/_dev_src/js/_menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#136#581#0" />
           </folding>
@@ -1035,29 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_component_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#426#2680#0" />
-            <element signature="e#2692#2927#0" />
-            <element signature="e#2957#3729#0" />
-            <element signature="e#3737#3929#0" />
-            <element signature="e#4028#4056#0" />
-            <element signature="e#4085#4268#0" />
-            <element signature="e#4284#4387#0" />
-            <element signature="e#4401#4529#0" />
-            <element signature="e#4547#4667#0" />
-            <element signature="e#4684#5609#0" />
-            <element signature="e#5636#5769#0" />
-            <element signature="e#5788#6069#0" />
-            <element signature="e#6107#6113#0" />
-            <element signature="e#6278#6284#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_dev_src/scss/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -1077,6 +946,13 @@
             <element signature="e#170#269#0" />
             <element signature="e#281#1331#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dev_src/scss/_component_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="529" selection-start-line="529" selection-end-line="529" />
         </state>
       </provider>
     </entry>
