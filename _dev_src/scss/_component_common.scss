@@ -1,4 +1,4 @@
-// headging type
+// heading type
 .heading{
 
   &-wrap{
@@ -28,6 +28,7 @@
 			}
     }
   }
+
   &-bg-wrap{
     margin:50px 0 80px;
   }
@@ -186,6 +187,10 @@
     font-size:20px;
     color:#000;
     line-height:1.8;
+
+    br{
+      display:none;
+    }
   }
 
   &-common{
@@ -197,6 +202,7 @@
 
     strong{
       font-size:16px;
+      font-weight:400;
       color:#333;
     }
   }
@@ -264,8 +270,12 @@
 .sub{
 
   &-visual{
-    margin-bottom:76px;
+    margin-bottom:27px;
     position:relative;
+
+    &-inner{
+
+    }
 
     &-image{
       display:block;
@@ -322,18 +332,13 @@
 			margin-top:100px;
 			padding:80px 0 100px;
 			background-color:#f8f8f8;
-			h3{
-				float:left;
-				margin-top:5px;
-			}
 		}
 
 		&-list{
 			color:#333;
-			float:left;
+			float:right;
 			border-top:1px solid #666;
 			border-bottom:1px solid #666;
-			margin-left:290px;
 			width:842px;
 			&-item{
 				padding:35px 19px 32px;
@@ -378,18 +383,6 @@
 			}
 		}
 	}
-
-}
-
-// diagram IR
-.diagram{
-
-  &-01{
-    width:1200px;
-    height:171px;
-    background:url(/images/diagram_01.png) no-repeat;
-    text-indent:-99999em;
-  }
 
 }
 
@@ -512,6 +505,24 @@
 
 @media screen and (max-width:1024px){
 
+  .heading{
+
+    &-wrap{
+      &-01{
+
+      }
+    }
+    &-01{
+
+    }
+    &-desc{
+
+      &-01{
+        font-size:12px;
+      }
+    }
+  }
+
   .sub{
     &-visual{
 
@@ -521,9 +532,326 @@
 
       &-slogan{
         &-wrap{
+          width:400px;
+          height:300px;
+          padding:50px 0 50px 30px;
+          right:10px;
+        }
 
+        &-narrow{
+          font-size:24px;
+        }
+
+        &-bold{
+          font-size:24px;
         }
       }
+    }
+  }
+
+  .paragraph{
+    &-strong{
+      br{
+        display:block;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width:768px){
+
+  .heading{
+
+    &-wrap{
+      &-01{
+        margin-bottom:24px;
+      }
+    }
+    &-01{
+      font-size:24px;
+    }
+    &-desc{
+
+      &-01{
+        font-size:12px;
+      }
+    }
+  }
+
+  .sub{
+    &-visual{
+      &-inner{
+
+      }
+
+      &-image{
+
+      }
+
+      &-slogan{
+        &-wrap{
+          width:320px;
+          height:250px;
+          padding:50px 0 50px 30px;
+          right:10px;
+        }
+
+        &-narrow{
+          font-size:20px;
+        }
+
+        &-bold{
+          font-size:20px;
+        }
+      }
+    }
+  }
+
+  .text-content{
+    margin-bottom:100px;
+
+    &:after{
+      clear:both;
+      display:block;
+      content:"";
+    }
+
+    &-heading{
+      float:left;
+      //margin-top:6px;
+      font-size:36px;
+      line-height:1.2;
+
+      span{
+        display:block;
+      }
+
+      &-image{
+        margin-top:30px;
+        display:block;
+      }
+
+    }
+
+    &-desc{
+      &-wrap{
+        padding-top:16px;
+        border-top:1px solid #666;
+        float:right;
+        width:842px;
+        strong{
+          display:block;
+          color:#333;
+          font-size:18px;
+          font-weight:bold;
+        }
+      }
+      &-list{
+        margin-bottom:30px;
+      }
+      &-title{
+        margin-bottom:23px;
+        font-size:20px;
+        //line-height:20px;
+        color:#f48024;
+      }
+
+      &-paragraph{
+        font-size:14px;
+        line-height:1.8;
+        color:#666;
+
+        em{
+          color:#000;
+        }
+      }
+    }
+
+    &-02{
+
+      &-heading{
+        padding-bottom:3px;
+        font-size:36px;
+        font-weight:600;
+      }
+
+      &-desc{
+        &-wrap{
+          padding-top:16px;
+          border-top:1px solid #666;
+        }
+        &-list{
+          margin-bottom:30px;
+        }
+        &-title{
+          margin-bottom:23px;
+          font-size:12px; //m
+          color:#f48024;
+
+          &.list-type{
+            color:#333;
+            font-size:18px;
+          }
+        }
+
+        &-diagram{
+          margin:36px 0;
+        }
+        &-paragraph{
+          font-size:10px; //m
+          line-height:1.8;
+          color:#666;
+
+          em{
+            color:#000;
+          }
+        }
+      }
+
+    }
+
+    &-object{
+      float:left;
+      dt{
+        margin-bottom:15px;
+        font-size:18px;
+        font-weight:bold;
+        color:#333;
+      }
+      dd{
+        float:left;
+        margin-right:31px;
+        font-size:16px;
+        color:#f48024;
+      }
+      dd:before{
+        margin-right:17px;
+        vertical-align:middle;
+        display:inline-block;
+        content:'';
+        width:61px;
+        height:61px;
+      }
+    }
+
+    &-student-jobseeker:before{
+      background:url("/images/student-jobseeker.png") no-repeat;
+    }
+    &-business-partner:before{
+      background:url("/images/business-partner.png") no-repeat;
+    }
+    &-ordinary-person:before{
+      background:url("/images/ordinary-person.png") no-repeat;
+    }
+    &-high-school:before{
+      background:url("/images/high-school.png") no-repeat;
+    }
+    &-elementary-school{
+      background:url("/images/elementary-school.png") no-repeat;
+    }
+  }
+
+  .paragraph{
+    &-strong{
+      font-size:12px;
+    }
+
+    &-common{
+      margin-top:24px;
+      font-size:12px;
+      font-weight:300;
+
+      strong{
+        font-size:12px;
+      }
+    }
+  }
+
+  .content-link{
+    display:inline-block;
+    width: 200px; //m
+    margin-top: 30px;
+    font-size: 11px; //m
+    color: #979797;
+    padding: 12px 15px; //m
+    height: 35px; //m
+    border-radius: 5px;
+    border: 1px solid #979797;
+    text-align:left;
+    position:relative;
+
+    &:after{
+      display:inline-block;
+      content:"";
+      width:15px;
+      height:13px;
+      background:url('/images/ci-manual-download.png') no-repeat;
+      position:absolute;
+      top:50%;
+      margin-top:-7px;
+      right:15px;
+    }
+
+    &.type-red{
+      border:0;
+      background:#e51837;
+      color:#fff;
+    }
+
+    &.more:after{
+      display:inline-block;
+      content:"";
+      width:10px;
+      height:7px;
+      margin-left:50px;
+      background:url('/images/bg_btn_link.png') no-repeat;
+      position:absolute;
+      top:50%;
+      margin-top:-4px;
+      right:15px;
+    }
+  }
+}
+
+@media screen and (max-width:640px){
+
+  .sub{
+    &-visual{
+
+      &-inner{
+        overflow:hidden;
+      }
+      &-image{
+        width:auto;
+        height:170px;
+        position:relative;
+        left:50%;
+        transform:translateX(-50%);
+      }
+      &-slogan{
+        &-wrap{
+          width: 175px;
+          height: 130px;
+          padding: 25px 0 25px 10px;
+          top:-10px;
+          right: 10px;
+        }
+        &-narrow{
+          font-size:12px;
+        }
+
+        &-bold{
+          margin-top:20px;
+          font-size:12px;
+        }
+      }
+    }
+  }
+
+  .paragraph{
+    &-strong{
+      font-size:10px;
     }
   }
 
