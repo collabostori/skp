@@ -6,6 +6,7 @@
   <meta http-equiv="Content-Type" content="text/jsp; charset=utf-8" />
   <meta name="description" content="데이터 인프라 기반 ICT Synergy, Marketing Platform, 데이터 사업 전문기업" />
   <meta name="keyword" content="Skplanet, SK플래닛, ICT Synergy, Marketing, Platform, Data, Infra, Business, AI, IoT, NUGU, MNO, Solutions, Cloud, Media" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
   <link rel="shortcut icon" href="/favicons/favicon.ico">
   <link rel="stylesheet" href="/css/style.css" />
   <script src="/js/lib/jquery-3.1.1.js"></script>
@@ -77,42 +78,86 @@
 
   </div>
 
+  <!-- mobile menu button -->
+  <button type="button" class="btn-mobile-gnb"><span>열기</span></button>
+
 </header>
 
-<section class="main-visual">
-
-  <div class="main-visual-slogan">
-    <strong>SK PLANET</strong>
-
-    <span class="main-visual-slogan-word" data-id="1">ICT SYNERGY</span>
-    <span class="main-visual-slogan-word" data-id="2">MARKETING</span>
-    <span class="main-visual-slogan-word" data-id="3">DATA INFRA</span>
+<!-- show only PC -->
+<section class="location">
+  <div class="location-inner">
+    <div class="location-item">Home</div>
+    <div class="location-item">홍보센터</div>
+    <div class="location-item current">보도자료</div>
   </div>
-
-  <div class="main-visual-slogan-text">
-    SK플래닛은 데이터 인프라를 기반으로 ICT Synergy, Marketing Platform,<br />
-    데이터 사업 영역에서 전문성을 보유하고 있습니다.
-  </div>
-
 </section>
 
-<section class="main-section-01">
+<!-- show only Mobile -->
+<nav class="tnb">
+  <button type="button" class="tnb-current" title="현재 페이지 위치를 표시하며 탭하면 메뉴가 나타납니다.">보도자료</button>
+  <ul class="tnb-list">
+    <li class="tnb-item"><a href="#" class="tnb-link on">동반성장</a></li>
+    <li class="tnb-item"><a href="#" class="tnb-link">CI</a></li>
+    <li class="tnb-item"><a href="#" class="tnb-link">보도자료</a></li>
+    <li class="tnb-item"><a href="#" class="tnb-link">공지사항</a></li>
+  </ul>
+</nav>
 
-  <div class="main-section-title-type-01">Discovering SK planet</div>
-  <p class="main-section-paragraph">SK플래닛은 데이터 및 솔루션 전문성을 결집하여 차별화된 고객 가치를 제공하고, SK ICT Family의 개발 역량을 이끌어 나갑니다.</p>
-  <p class="main-section-paragraph">고객과 시장에 대한 통찰, 기술과 서비스를 위한 혁신, 그리고 미래를 향한 진취적인 도전으로 국내 최고 Data & Tech 기업으로 성장하겠습니다.</p>
+<div class="contents-wrap">
 
-</section>
-
-<section class="main-section-02">
-
-  <div class="main-section-title-type-02">ICT SYNERGY</div>
-  <p class="main-section-paragraph">선도적 기술 역량 기반 ICT 솔루션 사업</p>
-  <div class="main-section-more-wrap">
-    <a href="#a" class="content-link main-section arrow">VIEW MORE</a>
+  <div class="heading-wrap-01">
+    <h2 class="heading-01">사이트맵</h2>
   </div>
 
-</section>
+	<ul class="site-map-content-wrap">
+		<li class="site-map-content-list">
+			<a href="#a">· 회사소개</a>
+			<ul class="site-map-content-2depth">
+				<li class="site-map-content-2depth-list"><a href="#a">CEO 메시지</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">Company Overview</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">Vision</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">자회사</a></li>
+			</ul>
+		</li>
+		<li class="site-map-content-list">
+			<a href="#a">· 사업소개</a>
+			<ul class="site-map-content-2depth">
+				<li class="site-map-content-2depth-list"><a href="#a">ICT Synergy</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">Marketing Platform</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">Data Infra/Business</a></li>
+			</ul>
+		</li>
+		<li class="site-map-content-list">
+			<a href="#a">· 인재채용</a>
+			<ul class="site-map-content-2depth">
+				<li class="site-map-content-2depth-list"><a href="#a">인재상</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">채용프로세스</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">인사제도</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">육성제도</a></li>
+			</ul>
+		</li>
+		<li class="site-map-content-list">
+			<a href="#a">· 홍보센터</a>
+			<ul class="site-map-content-2depth">
+				<li class="site-map-content-2depth-list"><a href="#a">보도자료</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">사회공헌</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">CI</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">공지사항</a></li>
+			</ul>
+		</li>
+		<li class="site-map-content-list">
+			<a href="#a">· ETC</a>
+			<ul class="site-map-content-2depth">
+				<li class="site-map-content-2depth-list"><a href="#a">사이트맵</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">위치정보 이용약관</a></li>
+				<li class="site-map-content-2depth-list"><a href="#a">오시는 길</a></li>
+			</ul>
+		</li>
+	</ul>
+
+  
+
+</div>
 
 <footer class="footer">
 

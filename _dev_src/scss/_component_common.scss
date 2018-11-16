@@ -3,7 +3,7 @@
 
   &-wrap{
     &-01{
-      margin:50px 0 38px;
+      margin-bottom:38px;
     }
   }
 
@@ -253,10 +253,20 @@
     right:15px;
   }
 
+  &.main-section{
+    width:125px;
+    height:35px;
+    padding:11px;
+    margin-top:0;
+
+    font-size:12px;
+  }
+
 }
 
 .arrow{
 	margin-top:45px;
+
 	&:after{
     display:inline-block;
     content:"";
@@ -265,7 +275,7 @@
     background:url('/images/right-arrow.png') no-repeat;
 		position:absolute;
 		top:50%;
-		margin:-2px 0 2px;
+		margin:-4px 0 2px;
 		right:15px;
   }
 }

@@ -1,0 +1,305 @@
+.main{
+
+  &-visual{
+    height:1100px;
+    margin-top:60px;
+    background:url(/images/bg_main_visual.jpg) no-repeat;
+
+    position:relative;
+
+    &-slogan{
+
+      &-text{
+
+      }
+    }
+  }
+
+  &-section{
+
+    &-inner{
+      width:1420px;
+      margin:0 auto;
+    }
+
+    &-01{
+      width:100%;
+      height:510px;
+      padding-top:360px;
+      background:url(/images/bg_main_visual_masking.png) no-repeat;
+
+      position:absolute;
+      left:0;
+      bottom:0;
+
+      &-inner{
+        width:1560px;
+        margin:0 auto;
+      }
+    }
+
+    &-05{
+      padding:80px 0;
+      background:#000;
+    }
+
+    &-title{
+
+      &-type{
+        &-01{
+          margin:0 0 11px;
+          font-family:neosans, SKPGo, sans-serif;
+          font-size:62px;
+          font-weight: 600;
+        }
+        &-02{
+          margin:0 0 0;
+          font-family:neosans, SKPGo, sans-serif;
+          font-size:50px;
+          font-weight: 400;
+
+          &.white{
+            color:#fff;
+          }
+        }
+
+      }
+
+    }
+
+    &-paragraph{
+
+      &-type{
+        &-01{
+          margin-bottom:5px;
+          font-size:16px;
+          font-weight:300;
+          color:#666;
+
+          &.white{
+            color:#fff;
+            opacity:0.8;
+          }
+        }
+
+        &-02{
+          font-size:18px;
+          font-weight:300;
+          color:#666;
+        }
+      }
+
+    }
+
+    &-list{
+      width:600px;
+      &:after{
+        content:"";
+        display:block;
+        clear:both;
+      }
+    }
+
+    &-item{
+      width:315px;
+      float:left;
+
+      &:nth-child(1){
+        padding-bottom:20px;
+        border-bottom:1px solid #ccc;
+      }
+
+      &:nth-child(2){
+        padding-bottom:20px;
+        border-bottom:1px solid #ccc;
+      }
+
+      &:nth-child(3){
+        padding-top:20px;
+      }
+
+      &:nth-child(4){
+        padding-top:20px;
+      }
+
+      &:nth-child(2n){
+        width:285px;
+        margin-right:0;
+      }
+    }
+
+    &-def{
+      padding:22px 0 19px 125px;
+      position:relative;
+
+      &:after{
+        content:"";
+        display:block;
+        width:105px;
+        height:105px;
+        background:url(/images/spr_icon_main_section.png) no-repeat;
+        position:absolute;
+        top:0;
+        left:0;
+      }
+
+      &.ai{
+        &:after {
+          background-position: 0 0;
+        }
+      }
+
+      &.iot{
+        &:after {
+          background-position: -134px 0;
+        }
+      }
+
+      &.media{
+        &:after {
+          background-position: 0 -116px;
+        }
+      }
+
+      &.mno{
+        &:after {
+          background-position: -134px -116px;
+        }
+      }
+
+      &.cashback{
+        &:after {
+          background-position: 0 -241px;
+        }
+      }
+
+      &.syrup{
+        &:after {
+          background-position: -134px -241px;
+        }
+      }
+
+      &.dmp{
+        &:after {
+          background-position: 0 -359px;
+        }
+      }
+
+      &.recopick{
+        &:after {
+          background-position: -134px -359px;
+        }
+      }
+
+      &-title{
+        margin-bottom:10px;
+        font-family:neosans, SKPGo, sans-serif;
+        font-weight:600;
+      }
+
+      &-text{
+        color:#666;
+      }
+    }
+
+    &-more{
+      &-wrap{
+        margin-top:18px;
+      }
+    }
+
+    &-link{
+      &-area{
+        display: block;
+        height:120px;
+        padding: 20px 35px;
+        background: #ccc;
+      }
+
+      &-item{
+        width:33.333%;
+        float:left;
+      }
+
+      &-anchor{
+
+      }
+
+      &-title{
+        display:block;
+      }
+
+      &-text{
+        display:block;
+      }
+    }
+
+  }
+
+  &-board {
+
+    &-wrap {
+
+      &-01 {
+
+        float:right;
+
+        &:after {
+          content: "";
+          display: block;
+          clear: both;
+        }
+      }
+
+    }
+
+    &-item {
+
+      &-01 {
+        display: block;
+        width: 370px;
+        margin-right:10px;
+
+        float: left;
+
+        box-sizing: border-box;
+
+        &:nth-child(3n) {
+          margin-right: 0;
+        }
+
+        &-top {
+          position: relative;
+        }
+
+        &-image {
+          display: block;
+          width: 100%;
+        }
+
+        &-cover {
+          display: none;
+        }
+
+        &-heading {
+          font-size: 17px;
+          color:#fff;
+        }
+
+        &-date {
+          margin-top: 5px;
+          color: #999;
+          opacity:0.8;
+        }
+
+        &-bottom {
+          padding: 25px 0 19px;
+        }
+
+      }
+
+    }
+
+  }
+
+}

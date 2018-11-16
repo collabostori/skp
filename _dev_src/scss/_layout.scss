@@ -5,13 +5,19 @@ body{
 
 .location{
   padding:15px 0 10px;
-  margin-top:61px;
+  margin:61px 0 50px;
   border-bottom:1px solid #ccc;
 
   &:after{
     content:"";
     display:block;
     clear:both;
+  }
+
+  &-inner{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
   }
 
   &-item{
