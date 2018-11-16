@@ -254,11 +254,14 @@
 	margin-top:45px;
 	&:after{
     display:inline-block;
-    content:'';
+    content:"";
     width:10px;
     height:7px;
-		margin:-2px 0 2px 24px;
     background:url('/images/right-arrow.png') no-repeat;
+		position:absolute;
+		top:50%;
+		margin:-2px 0 2px;
+		right:15px;
   }
 }
 
