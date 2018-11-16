@@ -5,19 +5,13 @@ body{
 
 .location{
   padding:15px 0 10px;
-  margin:61px 0 50px;
+  margin-top:61px;
   border-bottom:1px solid #ccc;
 
   &:after{
     content:"";
     display:block;
     clear:both;
-  }
-
-  &-inner{
-    width:100%;
-    max-width:1200px;
-    margin:0 auto;
   }
 
   &-item{
@@ -110,7 +104,7 @@ body{
         border-color:#e51837;
 
         &:after{
-          background-position:0 0px;
+          background-position:0 0;
         }
       }
     }
