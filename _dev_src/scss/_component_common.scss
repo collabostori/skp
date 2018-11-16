@@ -3,7 +3,7 @@
 
   &-wrap{
     &-01{
-      margin-bottom:38px;
+      margin:50px 0 38px;
     }
   }
 
@@ -19,6 +19,7 @@
       color:#333;
       margin-top:4px;
       line-height:1.5;
+      font-size:16px;
 
 			em{
 				font-weight:bold;
@@ -216,7 +217,13 @@
   text-align:left;
   position:relative;
 
-  &:after{
+	&.type-red{
+    border:0;
+    background:#e51837;
+    color:#fff;
+  }
+
+  &.download:after{
     display:inline-block;
     content:"";
     width:15px;
@@ -226,12 +233,6 @@
     top:50%;
     margin-top:-7px;
     right:15px;
-  }
-
-  &.type-red{
-    border:0;
-    background:#e51837;
-    color:#fff;
   }
 
   &.more:after{
@@ -246,6 +247,7 @@
     margin-top:-4px;
     right:15px;
   }
+
 }
 
 .arrow{
@@ -476,55 +478,60 @@
 	}
 }
 
-.pangyo-office {
-  &-wrap {
-    font-size: 14px;
-    color: #666;
-  }
-  &-info-list {
-    &-2depth {
-      float: left;
-    }
-    span {
-      float: left;
-    }
-  }
+.pangyo-office{
+	&-wrap{
+		font-size:14px;
+		color:#666;
+	}
+	&-info-list{
+		&-2depth{
+			float:left;
+		}
+		span{
+			float:left;
+		}
+	}	
 }
 
-@media screen and (max-width:1280px){
+.error{
+	
+	&-logo{
+		text-align:center;
+		margin:70px 0 58px;
+	}
 
-  .sub{
-    &-visual{
+	&-content{
+		&-wrap{
+			text-align:center;
+			margin-bottom:70px;
+		}
+		&-paragraph{
+			//margin:30px 0 40px;
+			font-size:18px;
+			line-height:1.6;
+			color:#333;
+		
+			strong{
+				display:block;
+				margin:40px 0 30px;
+				font-size:28px;
+				font-weight:bold;
+				color:#f58026;
+			}
+		}
+	}
 
-      &-image{
-        width:100%;
-      }
-
-      &-slogan{
-        &-wrap{
-
-        }
-      }
-    }
-  }
-
-}
-
-@media screen and (max-width:1024px){
-
-  .sub{
-    &-visual{
-
-      &-image{
-        width:100%;
-      }
-
-      &-slogan{
-        &-wrap{
-
-        }
-      }
-    }
-  }
-
+	&-icon{
+		&:before{
+			margin:0 auto;
+			display:block;
+			content:"";
+			width:160px;
+			height:160px;
+			background:url("/images/error-icon.png") no-repeat;
+		}
+	}
+	&-line{
+		width:842px;
+	}
 }
