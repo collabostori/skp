@@ -19,7 +19,24 @@ $(function(){
     $(this).find('.board-item-01-cover').removeClass('on');
   });
 
+  /**
+   * visual tab
+   */
+
+  $('.sub-visual-tab-item').on('mouseenter', function(){
+
+    $(this).find('.sub-visual-tab-link').addClass('on');
+
+  });
+
+  $('.sub-visual-tab-item').on('mouseleave', function(){
+
+    $(this).find('.sub-visual-tab-link').removeClass('on');
+
+  });
+
 });
+
 
 
 
