@@ -26,9 +26,9 @@
   <nav class="gnb">
     <ul class="gnb-depth1">
       <li class="gnb-depth1-item">
-        <a href="#" class="gnb-depth1-link on">회사소개</a>
+        <a href="#" class="gnb-depth1-link">회사소개</a>
         <ul class="gnb-depth2">
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link on">CEO 메시지</a></li>
+          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">CEO 메시지</a></li>
           <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">Company Overview</a></li>
           <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">Vision</a></li>
           <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">자회사</a></li>
@@ -37,9 +37,9 @@
       <li class="gnb-depth1-item">
         <a href="#" class="gnb-depth1-link">사업소개</a>
         <ul class="gnb-depth2">
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link"> ICT Synergy</a></li>
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link"> Marketing Platform</a></li>
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link"> Data Infra/Business</a></li>
+          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">ICT Synergy</a></li>
+          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">Marketing Platform</a></li>
+          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">Data Infra/Business</a></li>
         </ul>
       </li>
       <li class="gnb-depth1-item">
@@ -54,9 +54,9 @@
       <li class="gnb-depth1-item">
         <a href="#" class="gnb-depth1-link">홍보센터</a>
         <ul class="gnb-depth2">
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">보도자료</a></li>
-          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">사회공헌</a></li>
+          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">동반성장</a></li>
           <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">CI</a></li>
+          <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">보도자료</a></li>
           <li class="gnb-depth2-item"><a href="#" class="gnb-depth2-link">공지사항</a></li>
         </ul>
       </li>
@@ -85,66 +85,82 @@
 
 <section class="main-visual">
 
-  <div class="main-visual-slogan">
-    <strong>SK PLANET</strong>
+  <div id="changethewords" class="main-visual-slogan">
+    <strong class="main-visual-slogan-corp">SK PLANET</strong>
 
     <span class="main-visual-slogan-word" data-id="1">ICT SYNERGY</span>
     <span class="main-visual-slogan-word" data-id="2">MARKETING</span>
     <span class="main-visual-slogan-word" data-id="3">DATA INFRA</span>
   </div>
 
+  <script src="/js/lib/jquery.changethewords.js"></script>
+  <script>
+    $(function(){
+      $("#changethewords").changeWords({
+        time: 5000,
+        animate: "flipInX",
+        selector: "span",
+        repeat: true
+      });
+    });
+  </script>
+
   <div class="main-visual-slogan-text">
     SK플래닛은 데이터 인프라를 기반으로 ICT Synergy, Marketing Platform,<br />
     데이터 사업 영역에서 전문성을 보유하고 있습니다.
   </div>
 
-  <section class="main-section-01">
+</section>
 
-    <div class="main-section-01-inner">
-      <div class="main-section-title-type-01">Discovering SK planet</div>
-      <p class="main-section-paragraph-type-01">SK플래닛은 데이터 및 솔루션 전문성을 결집하여 차별화된 고객 가치를 제공하고, SK ICT Family의 개발 역량을 이끌어 나갑니다.</p>
-      <p class="main-section-paragraph-type-01">고객과 시장에 대한 통찰, 기술과 서비스를 위한 혁신, 그리고 미래를 향한 진취적인 도전으로 국내 최고 Data & Tech 기업으로 성장하겠습니다.</p>
-    </div>
+<section class="main-section-01">
 
-  </section>
+  <div class="main-section-01-inner">
+    <div class="main-section-title-type-01">Discovering SK planet</div>
+    <p class="main-section-paragraph-type-01">SK플래닛은 데이터 및 솔루션 전문성을 결집하여 차별화된 고객 가치를 제공하고, SK ICT Family의 개발 역량을 이끌어 나갑니다.</p>
+    <p class="main-section-paragraph-type-01">고객과 시장에 대한 통찰, 기술과 서비스를 위한 혁신, 그리고 미래를 향한 진취적인 도전으로 국내 최고 Data & Tech 기업으로 성장하겠습니다.</p>
+  </div>
 
 </section>
 
 <section class="main-section-02">
 
   <div class="main-section-inner ict">
-    <div class="main-section-title-type-02">ICT SYNERGY</div>
-    <p class="main-section-paragraph-type-02">선도적 기술 역량 기반 ICT 솔루션 사업</p>
-    <div class="main-section-more-wrap">
-      <a href="#a" class="content-link main-section arrow">VIEW MORE</a>
-    </div>
+    <div class="main-section-contents">
+      <div class="main-section-inner-top">
+        <div class="main-section-title-type-02">ICT SYNERGY</div>
+        <p class="main-section-paragraph-type-02">선도적 기술 역량 기반 ICT 솔루션 사업</p>
+        <div class="main-section-more-wrap">
+          <a href="#a" class="content-link main-section arrow">VIEW MORE</a>
+        </div>
+      </div>
 
-    <ul class="main-section-list">
-      <li class="main-section-item">
-        <dl class="main-section-def ai">
-          <dt class="main-section-def-title">AI</dt>
-          <dd class="main-section-def-text">AI 챗봇 AI 서비스<br />NUGU 개발/운영</dd>
-        </dl>
-      </li>
-      <li class="main-section-item">
-        <dl class="main-section-def iot">
-          <dt class="main-section-def-title">IoT</dt>
-          <dd class="main-section-def-text">IoT 기반의 센서 및<br />데이터 분석 솔루션</dd>
-        </dl>
-      </li>
-      <li class="main-section-item">
-        <dl class="main-section-def media">
-          <dt class="main-section-def-title">Media</dt>
-          <dd class="main-section-def-text">Cloud Streaming 기반<br />미디어 솔루션</dd>
-        </dl>
-      </li>
-      <li class="main-section-item">
-        <dl class="main-section-def mno">
-          <dt class="main-section-def-title">MNO</dt>
-          <dd class="main-section-def-text">통신부가 서비스 운영 및<br />신규 부가서비스 기획/개발</dd>
-        </dl>
-      </li>
-    </ul>
+      <ul class="main-section-list">
+        <li class="main-section-item">
+          <dl class="main-section-def ai">
+            <dt class="main-section-def-title">AI</dt>
+            <dd class="main-section-def-text">AI 챗봇 AI 서비스<br />NUGU 개발/운영</dd>
+          </dl>
+        </li>
+        <li class="main-section-item">
+          <dl class="main-section-def iot">
+            <dt class="main-section-def-title">IoT</dt>
+            <dd class="main-section-def-text">IoT 기반의 센서 및<br />데이터 분석 솔루션</dd>
+          </dl>
+        </li>
+        <li class="main-section-item">
+          <dl class="main-section-def media">
+            <dt class="main-section-def-title">Media</dt>
+            <dd class="main-section-def-text">Cloud Streaming 기반<br />미디어 솔루션</dd>
+          </dl>
+        </li>
+        <li class="main-section-item">
+          <dl class="main-section-def mno">
+            <dt class="main-section-def-title">MNO</dt>
+            <dd class="main-section-def-text">통신부가 서비스 운영 및<br />신규 부가서비스 기획/개발</dd>
+          </dl>
+        </li>
+      </ul>
+    </div>
   </div>
 
 </section>
@@ -152,28 +168,30 @@
 <section class="main-section-03">
 
   <div class="main-section-inner marketing">
-    <div class="main-section-inner">
-      <div class="main-section-title-type-02">MARKETING PLATFORM</div>
-      <p class="main-section-paragraph-type-02">소비자와 판매자를 연결하는 디지털 마케팅 플랫폼</p>
-      <div class="main-section-more-wrap">
-        <a href="#a" class="content-link main-section arrow">VIEW MORE</a>
+    <div class="main-section-contents">
+      <div class="main-section-inner-top">
+        <div class="main-section-title-type-02">MARKETING PLATFORM</div>
+        <p class="main-section-paragraph-type-02">소비자와 판매자를 연결하는 디지털 마케팅 플랫폼</p>
+        <div class="main-section-more-wrap">
+          <a href="#a" class="content-link main-section arrow">VIEW MORE</a>
+        </div>
       </div>
-    </div>
 
-    <ul class="main-section-list">
-      <li class="main-section-item">
-        <dl class="main-section-def cashback">
-          <dt class="main-section-def-title">OK Cashback</dt>
-          <dd class="main-section-def-text">남다른 가치로<br />즐기는 포인트 생활</dd>
-        </dl>
-      </li>
-      <li class="main-section-item">
-        <dl class="main-section-def syrup">
-          <dt class="main-section-def-title">Syrup Wallet</dt>
-          <dd class="main-section-def-text">손 안에서 누리는<br />스마트 커머스 라이프</dd>
-        </dl>
-      </li>
-    </ul>
+      <ul class="main-section-list">
+        <li class="main-section-item">
+          <dl class="main-section-def cashback">
+            <dt class="main-section-def-title">OK Cashback</dt>
+            <dd class="main-section-def-text">남다른 가치로<br />즐기는 포인트 생활</dd>
+          </dl>
+        </li>
+        <li class="main-section-item">
+          <dl class="main-section-def syrup">
+            <dt class="main-section-def-title">Syrup Wallet</dt>
+            <dd class="main-section-def-text">손 안에서 누리는<br />스마트 커머스 라이프</dd>
+          </dl>
+        </li>
+      </ul>
+    </div>
   </div>
 
 </section>
@@ -181,26 +199,30 @@
 <section class="main-section-04">
 
   <div class="main-section-inner data">
-    <div class="main-section-title-type-02">DATA INFRA / BUSINESS</div>
-    <p class="main-section-paragraph-type-02">데이터 인프라 기반 차별화된 데이터 분석 플랫폼</p>
-    <div class="main-section-more-wrap">
-      <a href="#a" class="content-link main-section arrow">VIEW MORE</a>
-    </div>
+    <div class="main-section-contents">
+      <div class="main-section-inner-top">
+        <div class="main-section-title-type-02">DATA INFRA / BUSINESS</div>
+        <p class="main-section-paragraph-type-02">데이터 인프라 기반 차별화된 데이터 분석 플랫폼</p>
+        <div class="main-section-more-wrap">
+          <a href="#a" class="content-link main-section arrow">VIEW MORE</a>
+        </div>
+      </div>
 
-    <ul class="main-section-list">
-      <li class="main-section-item">
-        <dl class="main-section-def dmp">
-          <dt class="main-section-def-title">SK planet DMP</dt>
-          <dd class="main-section-def-text">경계를 뛰어넘는 마케팅<br />통합 데이터 플랫폼</dd>
-        </dl>
-      </li>
-      <li class="main-section-item">
-        <dl class="main-section-def recopick">
-          <dt class="main-section-def-title">Recopick</dt>
-          <dd class="main-section-def-text">소비자 접점에서 펼치는<br />v실시간 개인화 추천 서비스</dd>
-        </dl>
-      </li>
-    </ul>
+      <ul class="main-section-list">
+        <li class="main-section-item">
+          <dl class="main-section-def dmp">
+            <dt class="main-section-def-title">SK planet DMP</dt>
+            <dd class="main-section-def-text">경계를 뛰어넘는 마케팅<br />통합 데이터 플랫폼</dd>
+          </dl>
+        </li>
+        <li class="main-section-item">
+          <dl class="main-section-def recopick">
+            <dt class="main-section-def-title">Recopick</dt>
+            <dd class="main-section-def-text">소비자 접점에서 펼치는<br />실시간 개인화 추천 서비스</dd>
+          </dl>
+        </li>
+      </ul>
+    </div>
   </div>
 
 </section>

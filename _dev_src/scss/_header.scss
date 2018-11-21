@@ -1,5 +1,6 @@
 .header{
   width:100%;
+  //min-width:1560px;
   height:61px;
   //border-bottom:1px solid #ccc;
   background:#fff;
@@ -13,9 +14,10 @@
     clear:both;
   }
 
-  //&:hover{
-  //  height:281px;
-  //}
+  &.open{
+    height:281px;
+    box-shadow: 0 -20px 60px 8px #000;
+  }
 
   &-logo{
     position:absolute;
@@ -97,6 +99,12 @@
       float:left;
 
       text-align:center;
+
+      &:last-child{
+        .gnb-depth2{
+          border-right:1px solid #ccc;
+        }
+      }
     }
 
     &-link{
@@ -174,6 +182,7 @@
   }
 
   .header{
+    min-width:auto;
     height:40px;
     border-bottom:1px solid #ccc;
 

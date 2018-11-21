@@ -35,6 +35,21 @@ $(function(){
 
   });
 
+  /**
+   * faq
+   */
+
+  $('.faq-list-item-question').data('open', 'false').on('click', function(){
+    if($(this).data('open') === 'false'){
+      $('.faq-list-item-question').data('open', 'false').next().removeClass('open');
+      $(this).next().addClass('open');
+      $(this).data('open', 'true');
+    } else {
+      $(this).next().removeClass('open');
+      $(this).data('open', 'false');
+    }
+  });
+
 });
 
 
@@ -46,6 +61,14 @@ $(function(){
   /**
    * gnb PC
    */
+
+  $('.gnb-depth1-link').on('mouseenter', function(){
+    $('.header').addClass('open');
+  });
+
+  $('.gnb').on('mouseleave', function(){
+    $('.header').removeClass('open');
+  });
 
   /**
    * gnb Mobile

@@ -1,5 +1,6 @@
 .logo-mark{
   &-wrap{
+    margin-bottom:30px;
     &:after{
       display:block;
       clear:both;
@@ -9,12 +10,15 @@
   &-left-content{
     float:left;
   }
+
   &-right-content{
     float:right;
   }
+
   &-logo-image{
     float:left;
   }
+
   &-color{
     float:left;
     font-size:14px;
@@ -36,6 +40,7 @@
       color:#666;
     }
   }
+
 }
 
 .auto-graph{
@@ -172,8 +177,40 @@
   &-01{
     width:1200px;
     height:171px;
-    background:url(/images/diagram_01.png) no-repeat;
+    background:url(/images/diagram_01.png) no-repeat center;
     text-indent:-99999em;
+  }
+
+  &-02{
+    width:628px;
+    height:130px;
+    background:url(/images/diagram_02.png) no-repeat center;
+    text-indent:-99999em;
+    margin:0 auto 30px;
+  }
+
+  &-03{
+    width:792px;
+    height:130px;
+    background:url(/images/diagram_03.png) no-repeat center;
+    text-indent:-99999em;
+    margin:0 auto 30px;
+  }
+
+  &-04{
+    width:845px;
+    height:377px;
+    background:url(/images/diagram_04.png) no-repeat center;
+    text-indent:-99999em;
+    margin:30px auto 0;
+  }
+
+  &-05{
+    width:845px;
+    height:455px;
+    background:url(/images/diagram_05.png) no-repeat center;
+    text-indent:-99999em;
+    margin:30px auto 0;
   }
 
 }
@@ -240,27 +277,266 @@
 // faq
 .faq-list{
   width:842px;
+  border-top:1px solid #666;
   float:right;
+
+  &-item{
+    border-bottom:1px solid #ccc;
+
+    &-question{
+      display:block;
+      width:100%;
+      height:84px;
+      padding:0;
+      border:0;
+      background:transparent;
+      font-size:14px;
+      color:#666;
+      text-align:left;
+
+      &:before{
+        content:"";
+        display:inline-block;
+        width:22px;
+        height:35px;
+        margin-right:20px;
+        background:url(/images/spr_faq.png) no-repeat 0 0;
+        vertical-align:middle;
+      }
+    }
+
+    &-answer{
+      display:none;
+      padding:33px 85px;
+      background:#fff;
+      position:relative;
+      color:#666;
+      line-height:1.8;
+
+      &.open{
+        display:block;
+      }
+
+      &:before{
+        content:"";
+        display:inline-block;
+        width:24px;
+        height:28px;
+        margin-right:20px;
+        background:url(/images/spr_faq.png) no-repeat 0 -45px;
+        position:absolute;
+        top:23px;
+        left:42px;
+      }
+    }
+  }
+}
+
+// sitemap
+.site-map-content{
+  &-wrap{
+
+    &:after{
+      display:block;
+      content:'';
+      clear:both;
+    }
+  }
+  &-list{
+    float:left;
+    border-left:1px solid #ccc;
+    padding-left:30px;
+    width:240px;
+    height:232px;
+    font-size:16px;
+    >a{
+      font-weight:bold;
+      color:#e51837;
+    }
+    &:first-child{
+      border-left:none;
+    }
+  }
+  &-2depth{
+    margin-top:52px;
+    &-list{
+      line-height:40px;
+
+      :hover{
+        color:#e51837;
+      }
+    }
+  }
+}
+
+// page tab
+.page-tab{
+  width:440px;
+  height:48px;
+  margin-bottom:55px;
+
+  &:after{
+    content:"";
+    display:block;
+    clear:both;
+  }
+
+  &-item{
+    width:50%;
+    float:left;
+
+    &:nth-child(1){
+      .page-tab-link{
+        border-radius:5px 0 0 5px;
+        background:#333;
+      }
+    }
+
+    &:nth-child(2){
+      .page-tab-link{
+        border-radius:0 5px 5px 0;
+        background:#e51837;
+      }
+    }
+  }
+
+  &-link{
+    display:block;
+    width:100%;
+    height:48px;
+    color:#fff;
+    text-align:center;
+    line-height:52px;
+    font-weight:300;
+  }
+}
+
+// location info
+.location-terms-of-use{
+  &-wrap{
+    font-size:16px;
+    line-height:1.5;
+    color:#000;
+  }
+  &-title{
+    font-weight:bold;
+  }
+  &-content{
+    margin:27px 0;
+  }
+  &-ordered{
+    &-2depth{
+      margin-bottom:32px;
+    }
+  }
+  &-service-type{
+    margin-top:12px;
+    font-size:20px;
+    font-weight:bold;
+  }
+}
+
+//office
+.pangyo-office{
+  &-wrap{
+    font-size:14px;
+    color:#666;
+  }
+  &-info-list{
+    &-2depth{
+      float:left;
+    }
+    span{
+      float:left;
+    }
+  }
 }
 
 @media screen and (max-width:1280px){
   .diagram{
 
-    &-01{
+    &-01,
+    &-02,
+    &-03,
+    &-04,
+    &-05{
       width:100%;
       background-size:contain;
+    }
+
+  }
+
+  .site-map-content{
+
+    &-list{
+      float:left;
+      padding-left:30px;
+      width:20%;
+      height:232px;
     }
 
   }
 }
 
 @media screen and (max-width:1024px){
+
+  .sub{
+    &-history{
+      &-wrap{
+        margin-top:30px;
+        padding:40px 0 50px;
+      }
+
+      &-list{
+        width:auto;
+        float:none;
+
+        &-item{
+          padding:10px 0;
+        }
+
+        &-year{
+          font-size:12px;
+          position: relative;
+          top: 3px;
+        }
+
+        &-month{
+          float:left;
+          font-size:11px;
+        }
+
+        &-text{
+          display:block;
+          width:75%;
+          float:left;
+          font-size:10px;
+        }
+
+        &-depth{
+          width:80%;
+          margin-left:15px;
+          &-item{
+            margin-top:6px;
+
+            &:after{
+              content:"";
+              display:block;
+              clear:both;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .ict-diagram{
 
     &-image{
-      padding-bottom:122px;
+      padding-bottom:50px;
       margin-bottom:10px;
       background:url(/images/bg_ict_diagram_02.png) no-repeat center bottom;
+      background-size:1px auto;
     }
 
     &-item{
@@ -269,6 +545,67 @@
     }
 
   }
+
+  .faq-list{
+    width:100%;
+    float:none;
+
+    &-item{
+      &-question{
+        height:50px;
+        font-size:11px;
+        &:before{
+          width:12px;
+          height:18px;
+          margin-right:10px;
+          background-position:0 0px;
+          background-size:cover;
+        }
+      }
+
+      &-answer{
+        padding: 10px 10px 10px 40px;
+        font-size: 11px;
+        line-height: 1.6;
+        &:before{
+          width:12px;
+          height:14px;
+          background-position:0 -23px;
+          background-size:cover;
+          top:12px;
+          left:18px;
+        }
+      }
+    }
+  }
+
+  .site-map-content{
+
+    &-list{
+      float:left;
+      padding-left:30px;
+      width:100%;
+      height:auto;
+      padding:20px;
+      border-left:0;
+      border-bottom:1px solid #ccc;
+
+      > a{
+        display:block;
+        width:100px;
+        float:left;
+        line-height:40px;
+      }
+    }
+
+    &-2depth{
+      margin-top:0;
+      margin-left:50px;
+      float:left;
+    }
+
+  }
+
 }
 
 @media screen and (max-width:768px){
@@ -340,11 +677,164 @@
     &-01{
       width:214px;
       height:283px;
-      margin:0 auto;
+      margin:0 auto 15px;
       background:url(/images/diagram_01_mobile.png) no-repeat;
       background-size:214px 283px;
     }
 
+    &-02{
+      width:218px;
+      height:218px;
+      margin:0 auto 15px;
+      background:url(/images/diagram_02_mobile.png) no-repeat;
+      background-size:218px 218px;
+    }
+
+    &-03{
+      width:218px;
+      height:347px;
+      margin:0 auto 15px;
+      background:url(/images/diagram_03_mobile.png) no-repeat;
+      background-size:218px 347px;
+    }
+
+    &-04{
+      width:204px;
+      height:520px;
+      margin:15px auto 0;
+      background:url(/images/diagram_04_mobile.png) no-repeat;
+      background-size:204px 520px;
+    }
+
+    &-05{
+      width:290px;
+      height:458px;
+      margin:15px auto 0;
+      background:url(/images/diagram_05_mobile.png) no-repeat;
+      background-size:290px 458px;
+    }
+
   }
 
+  .location-terms-of-use{
+    &-title{
+      font-size:11px;
+    }
+    &-content{
+      font-size:10px;
+    }
+    &-service-type{
+      font-size:14px;
+    }
+  }
+
+  .page-tab{
+    width:100%;
+
+    &-link{
+      height:33px;
+      font-size:11px;
+      line-height:36px;
+    }
+  }
+
+  .logo-mark{
+
+    &-wrap{
+      margin-top:20px;
+    }
+
+    &-left-content{
+      float:none;
+      margin-bottom:20px;
+
+      &:after{
+        content:"";
+        display:block;
+        clear:both;
+      }
+    }
+
+    &-right-content{
+      float:none;
+
+      &:after{
+        content:"";
+        display:block;
+        clear:both;
+      }
+    }
+
+    &-logo-image{
+      width:40%;
+      height:60px;
+      float:left;
+    }
+
+    &-color{
+      width: 60%;
+      height:60px;
+      padding: 10px;
+      font-size: 11px;
+
+      dt{
+        line-height:1.2;
+      }
+      &-red{
+        color:#ea002c;
+      }
+      &-orange{
+        color:#f58026;
+      }
+      dd{
+        line-height:1.2;
+        color:#666;
+      }
+    }
+
+  }
+
+
+}
+
+@media screen and (max-width:640px){
+  .site-map-content{
+
+    &-wrap{
+      padding-left:35px;
+    }
+
+    &-list{
+      float:left;
+      padding:0;
+      width:50%;
+      height:200px;
+      border:0;
+
+      &:last-child{
+        height:auto;
+      }
+
+      > a{
+        display:block;
+        width:100px;
+        float:none;
+        font-size:12px;
+        line-height:40px;
+      }
+    }
+
+    &-2depth{
+      margin-left:0;
+      float:none;
+      font-size:11px;
+    }
+
+  }
+
+  .pangyo-office{
+    &-wrap{
+      font-size:11px;
+    }
+  }
 }

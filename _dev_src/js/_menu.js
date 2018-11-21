@@ -4,6 +4,14 @@ $(function(){
    * gnb PC
    */
 
+  $('.gnb-depth1-link').on('mouseenter', function(){
+    $('.header').addClass('open');
+  });
+
+  $('.gnb').on('mouseleave', function(){
+    $('.header').removeClass('open');
+  });
+
   /**
    * gnb Mobile
    */

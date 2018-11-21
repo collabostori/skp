@@ -259,3 +259,148 @@
   }
 
 }
+
+@media screen and (max-width:1280px){
+
+  .board{
+    &-top{
+      text-align:left;
+    }
+
+    &-item{
+      &-01{
+        width:100%;
+        margin:0 0 20px 0;
+
+        &-top{
+          width:50%;
+          float:left;
+        }
+
+        &-bottom{
+          width:50%;
+          float:left;
+        }
+
+        &-heading{
+          font-size:11px;
+        }
+
+        &-date{
+          font-size:10px;
+        }
+      }
+    }
+  }
+
+  .board-view{
+    &-heading{
+      font-size:13px;
+    }
+
+    &-date{
+      font-size:11px;
+    }
+
+    &-image{
+      >img{
+        width:100%;
+      }
+    }
+
+    &-text{
+      font-size:10px;
+      margin:20px 0 30px;
+    }
+
+    &-others{
+      .others{
+        &-item{
+          line-height:43px;
+
+          &-arrow{
+            &:before{
+              top:-1px;
+            }
+            &-link{
+              font-size:10px;
+            }
+          }
+
+          &-title-link{
+            font-size:10px;
+          }
+        }
+      }
+    }
+  }
+
+  .paging{
+
+    &-wrap{
+      margin-top:30px;
+    }
+
+    &-num{
+      font-size:13px;
+      margin-right:8px;
+
+      &:last-child{
+        margin-right:0;
+      }
+
+    }
+
+    &-prev{
+      margin-right:8px;
+    }
+
+    &-next{
+      margin-left:0;
+    }
+
+  }
+
+}
+
+@media screen and (max-width:640px){
+  .table{
+    &-vt{
+
+      caption{
+        display:block;
+        height:0;
+        overflow:hidden;
+      }
+
+      col:nth-child(1),
+      col:nth-child(3){
+        display:none;
+      }
+      th:nth-child(1),
+      th:nth-child(3){
+        display:none;
+      }
+
+      td:nth-child(1),
+      td:nth-child(3){
+        display:none;
+      }
+
+      th{
+        font-size:11px;
+      }
+
+      td{
+        height:40px;
+        line-height:40px;
+        padding:0 5px;
+        font-size:10px;
+      }
+
+      .icon-new{
+        top:4px;
+      }
+    }
+  }
+}
