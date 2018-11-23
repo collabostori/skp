@@ -41,6 +41,7 @@
       &-image {
         display: block;
         width: 100%;
+        height:250px;
       }
 
       &-cover {
@@ -263,34 +264,24 @@
 @media screen and (max-width:1280px){
 
   .board{
-    &-top{
-      text-align:left;
-    }
 
     &-item{
       &-01{
-        width:100%;
-        margin:0 0 20px 0;
-
-        &-top{
-          width:50%;
-          float:left;
+        width:calc(33.333% - 6px);
+        &:nth-child(3n+1){
+          margin-right:6px;
         }
 
-        &-bottom{
-          width:50%;
-          float:left;
+        &:nth-child(3n+2){
+          margin:0 3px;
         }
 
-        &-heading{
-          font-size:11px;
-        }
-
-        &-date{
-          font-size:10px;
+        &:nth-child(3n){
+          margin-left:6px;
         }
       }
     }
+
   }
 
   .board-view{
@@ -351,16 +342,97 @@
 
     }
 
+    &-first{
+      margin-right:6px;
+    }
+
     &-prev{
-      margin-right:8px;
+      margin-right:6px;
     }
 
     &-next{
       margin-left:0;
     }
 
+    &-num{
+      margin-right:7px;
+    }
+
   }
 
+}
+
+@media screen and (max-width:1024px){
+
+  .board{
+    &-item{
+      &-01{
+        &-image{
+          height:210px;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width:768px){
+  .board{
+
+    &-item{
+      &-01{
+
+        &-heading{
+          font-size:11px;
+        }
+
+        &-date{
+          font-size:10px;
+        }
+
+        &-image{
+          height:165px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:640px){
+  .board{
+    &-top{
+      text-align:left;
+    }
+
+    &-item{
+      &-01{
+        width:100%;
+        margin:0 0 10px 0 !important;
+
+        &-top{
+          width:50%;
+          float:left;
+        }
+
+        &-bottom{
+          width:50%;
+          float:left;
+        }
+
+        &-heading{
+          font-size:11px;
+        }
+
+        &-date{
+          font-size:10px;
+        }
+
+        &-image{
+          height:210px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width:640px){
@@ -373,17 +445,15 @@
         overflow:hidden;
       }
 
-      col:nth-child(1),
-      col:nth-child(3){
-        display:none;
-      }
-      th:nth-child(1),
-      th:nth-child(3){
+      col:nth-child(2){
         display:none;
       }
 
-      td:nth-child(1),
-      td:nth-child(3){
+      th:nth-child(2){
+        display:none;
+      }
+
+      td:nth-child(2){
         display:none;
       }
 
@@ -400,6 +470,30 @@
 
       .icon-new{
         top:4px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:480px){
+  .board{
+    &-item{
+      &-01{
+        &-image{
+          height:150px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:400px){
+  .board{
+    &-item{
+      &-01{
+        &-image{
+          height:100px;
+        }
       }
     }
   }

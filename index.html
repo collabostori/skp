@@ -16,9 +16,14 @@
 
     .cover-table{
       width:1200px;
-      margin:0 auto;
+      margin:0 auto 50px;
       border-top:2px solid #000;
       border-bottom:2px solid #000;
+    }
+
+    .cover-table caption{
+      font-size:20px;
+      margin-bottom:30px;
     }
 
     .cover-table th{
@@ -53,15 +58,41 @@
 
       $.getJSON('./data/file_list_kor.json', function(data){
 
-        var items = [];
+        var korItems = [];
 
         $.each(data, function(key, val){
-          items.push('<tr><td>' + (parseInt(key) + 1) + '</td><td><a href="/html/kor/'+ val +'" target="_blank">' + val + '</a></td></tr>');
+          korItems.push('<tr><td>' + (parseInt(key) + 1) + '</td><td><a href="/html/kor/'+ val +'" target="_blank">' + val + '</a></td></tr>');
         });
 
-        $('' + items).appendTo('tbody');
+        $('' + korItems).appendTo('.cover-table.kor tbody');
 
       });
+
+      $.getJSON('./data/file_list_err.json', function(data){
+
+        var errItems = [];
+
+        $.each(data, function(key, val){
+          errItems.push('<tr><td>' + (parseInt(key) + 1) + '</td><td><a href="/html/err/'+ val +'" target="_blank">' + val + '</a></td></tr>');
+        });
+
+        $('' + errItems).appendTo('.cover-table.err tbody');
+
+      });
+
+      $.getJSON('./data/file_list_eng.json', function(data){
+
+        var engItems = [];
+
+        $.each(data, function(key, val){
+          engItems.push('<tr><td>' + (parseInt(key) + 1) + '</td><td><a href="/html/eng/'+ val +'" target="_blank">' + val + '</a></td></tr>');
+        });
+
+        $('' + engItems).appendTo('.cover-table.eng tbody');
+
+      });
+
+
 
     });
   </script>
@@ -75,7 +106,47 @@
     <div>MARKUP LIST</div>
   </div>
 
-  <table class="cover-table">
+  <table class="cover-table kor">
+
+    <caption>국문 사이트 목록</caption>
+
+    <colgroup>
+      <col style="width:30%;" />
+      <col style="width:70%;" />
+    </colgroup>
+
+    <thead>
+    <th>Number</th>
+    <th>file name</th>
+    </thead>
+    <tbody class="tbody">
+
+    </tbody>
+
+  </table>
+
+  <table class="cover-table err">
+
+    <caption>에러 페이지 목록</caption>
+
+    <colgroup>
+      <col style="width:30%;" />
+      <col style="width:70%;" />
+    </colgroup>
+
+    <thead>
+    <th>Number</th>
+    <th>file name</th>
+    </thead>
+    <tbody class="tbody">
+
+    </tbody>
+
+  </table>
+
+  <table class="cover-table eng">
+
+    <caption>영문 사이트 목록</caption>
 
     <colgroup>
       <col style="width:30%;" />
