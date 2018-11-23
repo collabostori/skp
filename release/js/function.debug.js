@@ -19,6 +19,7 @@ $(function(){
     $(this).find('.board-item-01-cover').removeClass('on');
   });
 
+<<<<<<< HEAD
   /**
    * visual tab
    */
@@ -50,10 +51,13 @@ $(function(){
     }
   });
 
+=======
+>>>>>>> 25a6c49099a72970e01c042816145e5956b27074
 });
 
 
 
+<<<<<<< HEAD
 
 
 $(function(){
@@ -120,3 +124,5 @@ $(function(){
   });
 
 });
+=======
+>>>>>>> 25a6c49099a72970e01c042816145e5956b27074
