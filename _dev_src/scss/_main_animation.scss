@@ -1,0 +1,38 @@
+.main-section-02{
+  .main-section-inner.ict{
+    .main-section-contents{
+      .main-section-inner-top{
+        &.hide:after{
+          left:-300px;
+          opacity:0;
+        }
+      }
+    }
+  }
+}
+
+.main-section-03{
+  .main-section-inner.marketing{
+    .main-section-contents{
+      .main-section-inner-top{
+        &.hide:after{
+          right:-50px;
+          opacity:0;
+        }
+      }
+    }
+  }
+}
+
+.main-section-04{
+  .main-section-inner.data{
+    .main-section-contents{
+      .main-section-inner-top{
+        &.hide:after{
+          left:-100px;
+          opacity:0;
+        }
+      }
+    }
+  }
+}

@@ -54,6 +54,17 @@
         text-align:center;
       }
     }
+
+    &:after{
+      content:"";
+      display:block;
+      width:100%;
+      height:500px;
+      background:url(/images/bg_main_visual_masking.png) no-repeat bottom left;
+      background-size:contain;
+      position:absolute;
+      bottom:-70px;
+    }
   }
 
   &-section{
@@ -118,7 +129,7 @@
 
           .main-section-inner-top{
             &:after{
-              content:"";
+              content:attr(data-after);
               display:block;
               width:910px;
               height:570px;
@@ -127,6 +138,7 @@
               top:75px;
               left:-250px;
               z-index:-1;
+              transition:all 0.5s ease-out;
             }
           }
         }
@@ -146,6 +158,7 @@
               position:absolute;
               top:119px;
               right:0;
+              transition:all 0.5s ease-out;
             }
           }
         }
@@ -167,6 +180,7 @@
               position:absolute;
               top:40px;
               left:-50px;
+              transition:all 0.5s ease-out;
             }
           }
         }
@@ -581,6 +595,10 @@
       &-slogan{
         font-size:50px;
       }
+
+      &:after{
+        bottom:-35px;
+      }
     }
 
     &-section{
@@ -618,6 +636,11 @@
 @media screen and (max-width:1024px){
 
   .main{
+    &-visual{
+      &:after{
+        bottom:-20px;
+      }
+    }
     &-section{
 
       &-inner{
@@ -910,6 +933,12 @@
 
 @media screen and (max-width:795px){
   .main{
+    &-visual{
+      &:after{
+        bottom:0;
+      }
+    }
+
     &-board{
       &-item{
         &-01{
@@ -935,6 +964,58 @@
 
 @media screen and (max-width:768px){
   .main{
+    &-visual{
+      height:400px;
+      margin-top:40px;
+      background:url(/images/bg_main_visual_mobile.jpg) no-repeat bottom left;
+      background-size:cover;
+
+      &-slogan{
+        top:42px;
+        font-size:42px;
+
+        &-corp{
+          width:100%;
+          position:relative;
+          right:0;
+          padding-right:0;
+
+          &:after{
+            width:24px;
+            height:25px;
+            position:static;
+            top:auto;
+            right:auto;
+            margin:0 auto;
+            background-size:24px 25px;
+          }
+        }
+
+        >span{
+          margin-left:0;
+          position:static;
+          top:auto;
+          left:auto;
+        }
+
+        &-text{
+          padding: 0 15px;
+          top:215px;
+          font-size:13px;
+        }
+      }
+    }
+
+    &-section{
+      &-title{
+        &-type{
+          &-01{
+            font-size:30px;
+          }
+        }
+      }
+    }
+
     &-board{
       &-item{
         &-01{
@@ -969,6 +1050,10 @@
       margin-top:40px;
       background:url(/images/bg_main_visual_mobile.jpg) no-repeat bottom left;
       background-size:cover;
+
+      &:after{
+        display:none;
+      }
 
       &-slogan{
         top:42px;

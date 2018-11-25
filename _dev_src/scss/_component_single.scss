@@ -257,6 +257,11 @@
 
       &-item{
         margin-top:14px;
+        &:after{
+          content:"";
+          display:block;;
+          clear:both;
+        }
       }
       &-item:first-child{
         margin-top:0;
@@ -270,10 +275,13 @@
       width:35px;
       text-align:right;
       margin-right:20px;
+      float:left;
     }
     &-text{
+      width:640px;
       font-size:14px;
       color:#666;
+      float:left;
     }
   }
 }
@@ -297,6 +305,7 @@
       font-size:14px;
       color:#666;
       text-align:left;
+      position:relative;
 
       &:before{
         content:"";
@@ -306,6 +315,22 @@
         margin-right:20px;
         background:url(/images/spr_faq.png) no-repeat 0 0;
         vertical-align:middle;
+      }
+
+      &:after{
+        content:"";
+        display:block;
+        width:24px;
+        height:14px;
+        background:url(/images/spr_faq_arrow.png) no-repeat 0 -33px;
+        position:absolute;
+        top:50%;
+        margin-top:-7px;
+        right:26px;
+      }
+
+      &.open:after{
+        background-position:0 0;
       }
     }
 
@@ -563,11 +588,20 @@
       &-question{
         height:50px;
         font-size:11px;
+
         &:before{
           width:12px;
           height:18px;
           margin-right:10px;
           background-position:0 0px;
+          background-size:cover;
+        }
+
+        &:after{
+          width:12px;
+          height:8px;
+          margin-top:-4px;
+          background-position:0 -16px;
           background-size:cover;
         }
       }
