@@ -43,7 +43,10 @@ $(function(){
    * faq
    */
 
-  $('.faq-list-item-question').data('open', 'false').on('click', function(){
+  $('.faq-list-item-question').data('open', 'false');
+  $('.faq-list-item-question').eq(0).data('open', 'true')
+
+  $('.faq-list-item-question').on('click', function(){
     if($(this).data('open') === 'false'){
       $('.faq-list-item-question').data('open', 'false').removeClass('open').next().removeClass('open');
       $(this).addClass('open').next().addClass('open');
@@ -63,23 +66,23 @@ $(function(){
 function init(){
 
   // main section 01
-  $('.main-section-01 .main-section-title-type-01').css({
-    position: 'relative',
-    top: '50px',
-    opacity:0
-  });
-
-  $('.main-section-01 .main-section-paragraph-type-01').eq(0).css({
-    position: 'relative',
-    top: '50px',
-    opacity:0
-  });
-
-  $('.main-section-01 .main-section-paragraph-type-01').eq(1).css({
-    position: 'relative',
-    top: '50px',
-    opacity:0
-  });
+  // $('.main-section-01 .main-section-title-type-01').css({
+  //   position: 'relative',
+  //   top: '50px',
+  //   opacity:0
+  // });
+  //
+  // $('.main-section-01 .main-section-paragraph-type-01').eq(0).css({
+  //   position: 'relative',
+  //   top: '50px',
+  //   opacity:0
+  // });
+  //
+  // $('.main-section-01 .main-section-paragraph-type-01').eq(1).css({
+  //   position: 'relative',
+  //   top: '50px',
+  //   opacity:0
+  // });
 
   // main section 02
   $('.main-section-02 .main-section-title-type-02').css({

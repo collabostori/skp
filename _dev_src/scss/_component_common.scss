@@ -60,6 +60,38 @@
     //margin-top:6px;
     font-size:36px;
 
+    &.has-icon{
+
+      &:after{
+        content:"";
+        display:block;
+        margin-top:20px;
+      }
+
+      &.type{
+        &-01:after{
+          width:108px;
+          height:92px;
+          background:url(/images/communication-service.png) no-repeat;
+        }
+        &-02:after{
+          width:117px;
+          height:92px;
+          background:url(/images/t-coloring.png) no-repeat;
+        }
+        &-03:after{
+          width:106px;
+          height:93px;
+          background:url(/images/klink.png) no-repeat;
+        }
+        &-04:after{
+          width:103px;
+          height:92px;
+          background:url(/images/t-id.png) no-repeat;
+        }
+      }
+    }
+
     &-image{
       margin-top:30px;
       display:block;
@@ -513,6 +545,77 @@
 			p{
 				margin:22px 0 14px;
 			}
+
+      &.icon{
+
+        &.type{
+
+          &-01:before{
+            content:"";
+            display:block;
+            width:96px;
+            height:84px;
+            margin:0 auto;
+            background:url(/images/nursery-facilities.png) no-repeat;
+          }
+
+          &-02:before{
+            content:"";
+            display:block;
+            width:100px;
+            height:86px;
+            margin:0 auto;
+            background:url(/images/loan-program.png) no-repeat;
+          }
+
+          &-03:before{
+            content:"";
+            display:block;
+            width:108px;
+            height:88px;
+            margin:0 auto;
+            background:url(/images/refresh-vacation.png) no-repeat;
+          }
+
+          &-04:before{
+            content:"";
+            display:block;
+            width:104px;
+            height:86px;
+            margin:0 auto;
+            background:url(/images/light-money.png) no-repeat;
+          }
+
+          &-05:before{
+            content:"";
+            display:block;
+            width:102px;
+            height:88px;
+            margin:0 auto;
+            background:url(/images/physical-training-facilities.png) no-repeat;
+          }
+
+          &-06:before{
+            content:"";
+            display:block;
+            width:112px;
+            height:92px;
+            margin:0 auto;
+            background:url(/images/cafeteria-atrium.png) no-repeat;
+          }
+
+          &-07:before{
+            content:"";
+            display:block;
+            width:98px;
+            height:82px;
+            margin:0 auto;
+            background:url(/images/self-service.png) no-repeat;
+          }
+
+        }
+
+      }
 		}
 	}
 }
@@ -675,6 +778,10 @@
       float:none;
       font-size:19px;
 
+      &.has-icon:after{
+        display:none;
+      }
+
       &-image{
         margin:10px 0 !important;
         display:block;
@@ -726,6 +833,42 @@
         margin-bottom:10px;
         font-size:12px;
         color:#f48024;
+
+        &.has-icon{
+
+          &:after{
+            content:"";
+            display:block;
+            margin-top:30px;
+          }
+
+          &.type{
+            &-01:after{
+              width:70px;
+              height:59px;
+              background:url(/images/communication-service.png) no-repeat;
+              background-size:cover;
+            }
+            &-02:after{
+              width:70px;
+              height:55px;
+              background:url(/images/t-coloring.png) no-repeat;
+              background-size:cover;
+            }
+            &-03:after{
+              width:70px;
+              height:61px;
+              background:url(/images/klink.png) no-repeat;
+              background-size:cover;
+            }
+            &-04:after{
+              width:70px;
+              height:62px;
+              background:url(/images/t-id.png) no-repeat;
+              background-size:cover;
+            }
+          }
+        }
       }
 
       &-paragraph{
@@ -1025,25 +1168,57 @@
       padding:30px 25px;
       position:relative;
 
+      .text-content-desc-list{
+        position:relative;
+        padding-left:150px;
+      }
+
       .sub-history-list-text{
-        position:absolute;
-        top:50px;
-        left:104px;
         text-align:left;
       }
     }
     &-definition{
       &-list{
         &-term{
-          >img{
-            width:60px;
-            float:left;
-            margin-right:20px;
+          font-size:12px;
+          margin:0;
+          text-align:left;
+
+          p{
+            margin-top:0;
           }
-          >p{
-            float:left;
-            font-size:12px;
-            margin:0;
+
+          &.icon{
+
+            &:before{
+              position:absolute;
+              top:50%;
+              left:0;
+            }
+
+            &.type{
+              &-01:before{
+                margin-top:-42px;
+              }
+              &-02:before{
+                margin-top:-43px;
+              }
+              &-03:before{
+                margin-top:-44px;
+              }
+              &-04:before{
+                margin-top:-43px;
+              }
+              &-05:before{
+                margin-top:-44px;
+              }
+              &-06:before{
+                margin-top:-46px;
+              }
+              &-07:before{
+                margin-top:-41px;
+              }
+            }
           }
         }
       }
@@ -1176,6 +1351,72 @@
             margin:20px auto 0;
           }
         }
+      }
+    }
+  }
+
+  .benefits-package {
+    &-list {
+
+      .text-content-desc-list{
+        padding-left:100px;
+      }
+
+      .sub-history-list-text {
+        br{
+          display:none;
+        }
+      }
+    }
+
+    &-definition{
+      &-list-term{
+        &.icon{
+          &:before{
+            width:70px !important;
+            background-size:cover !important;
+          }
+
+          &.type{
+            &-01:before{
+              height:61px;
+              margin-top:-31px;
+            }
+
+            &-02:before{
+              height:60px;
+              margin-top:-30px;
+            }
+
+            &-03:before{
+              height:57px;
+              margin-top:-29px;
+            }
+
+            &-04:before{
+              height:58px;
+              margin-top:-29px;
+            }
+
+            &-05:before{
+              height:60px;
+              margin-top:-30px;
+            }
+
+            &-06:before{
+              height:57px;
+              margin-top:-29px;
+            }
+
+            &-07:before{
+              height:58px;
+              margin-top:-29px;
+            }
+          }
+        }
+
+
+
       }
     }
   }

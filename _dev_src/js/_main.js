@@ -1,23 +1,23 @@
 function init(){
 
   // main section 01
-  $('.main-section-01 .main-section-title-type-01').css({
-    position: 'relative',
-    top: '50px',
-    opacity:0
-  });
-
-  $('.main-section-01 .main-section-paragraph-type-01').eq(0).css({
-    position: 'relative',
-    top: '50px',
-    opacity:0
-  });
-
-  $('.main-section-01 .main-section-paragraph-type-01').eq(1).css({
-    position: 'relative',
-    top: '50px',
-    opacity:0
-  });
+  // $('.main-section-01 .main-section-title-type-01').css({
+  //   position: 'relative',
+  //   top: '50px',
+  //   opacity:0
+  // });
+  //
+  // $('.main-section-01 .main-section-paragraph-type-01').eq(0).css({
+  //   position: 'relative',
+  //   top: '50px',
+  //   opacity:0
+  // });
+  //
+  // $('.main-section-01 .main-section-paragraph-type-01').eq(1).css({
+  //   position: 'relative',
+  //   top: '50px',
+  //   opacity:0
+  // });
 
   // main section 02
   $('.main-section-02 .main-section-title-type-02').css({

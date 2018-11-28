@@ -43,7 +43,10 @@ $(function(){
    * faq
    */
 
-  $('.faq-list-item-question').data('open', 'false').on('click', function(){
+  $('.faq-list-item-question').data('open', 'false');
+  $('.faq-list-item-question').eq(0).data('open', 'true')
+
+  $('.faq-list-item-question').on('click', function(){
     if($(this).data('open') === 'false'){
       $('.faq-list-item-question').data('open', 'false').removeClass('open').next().removeClass('open');
       $(this).addClass('open').next().addClass('open');
